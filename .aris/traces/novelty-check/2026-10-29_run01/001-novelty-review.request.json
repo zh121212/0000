@@ -1,0 +1,19 @@
+{
+  "call_number": 1,
+  "purpose": "three-component-novelty-review",
+  "tool": "collaboration.spawn_agent",
+  "backend": "codex",
+  "model": "gpt-6-astra",
+  "effort": "xhigh",
+  "fork_turns": "none",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "session_id": "/root/novelty_timexer_three",
+  "prompt_scope": "Read-only independent assessment of LA, PD, C3Raw against supplied original sources and actual implementation/result files; identify nearest work, verifiable delta, score and bounded recommendation; no code changes or training.",
+  "input_paths": [
+    "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\07_TimeXer改进主线\\timexer_variants.py",
+    "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\12_TimeXer改进主线\\当前主线结果.md"
+  ],
+  "verdict_limits": "=== NOVELTY VERDICT LIMITS (these bound how you judge, never how widely you search) ===\nSearch exhaustively; judge calibrated. Two failures waste months equally:\npassing an idea a published paper already contains, and killing a viable idea\nbecause the territory has neighbors.\n1. Proximity is information, not a verdict. Someone working nearby goes in the\n   report; it is not by itself a reason to reject.\n2. ABANDON has exactly one qualification: a specific published paper already\n   contains this result — name that paper. No named paper, no ABANDON.\n3. Crowded-but-deltaed is PROCEED: state the delta in one sentence a reviewer\n   could verify. Thin or contested delta is PROCEED WITH CAUTION — say what\n   would make it carry, not why it should die. CAUTION is not a safe middle:\n   if you cannot name the specific thing that makes the delta thin, the\n   verdict is PROCEED.\n4. Concurrent or competing work is not a veto. That is a race — report it and\n   let the user decide whether to run it.\n5. A direct attack on a central problem is legitimate novelty when nobody has\n   executed it well. \"This area is hot\" does not mean \"this area is taken.\"\n6. This check is an early gate, never the last one — more triage, pilots, or\n   external review still stand between any idea and a paper, whatever order\n   this run uses. A wrongly passed idea dies cheaply at one of them; a wrongly\n   killed idea is never seen again. When torn between two verdicts, choose the\n   more permissive one.\nSay plainly when an idea clears the check. Do not manufacture overlap.",
+  "request_record_note": "Core claims, evidence and sources are stored alongside in searched_claims_and_sources.json. Full original dispatch also remains in the tool transcript."
+}

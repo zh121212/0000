@@ -1,0 +1,16 @@
+{
+  "pid": 5436,
+  "started_at": "2026-10-29T23:25:08.4253149+08:00",
+  "device": "cuda",
+  "parallel": 4,
+  "models": [
+    "TimeXer_PD",
+    "TimeXer_LA_PD_C3Zero",
+    "TimeXer_LA_PD_C3Norm",
+    "TimeXer_LA_C3Raw"
+  ],
+  "planned_new_jobs": 28,
+  "existing_reused_jobs": 21,
+  "stdout": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\13_统一测试与消融\\补齐消融训练.log",
+  "stderr": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\13_统一测试与消融\\补齐消融训练.stderr.log"
+}

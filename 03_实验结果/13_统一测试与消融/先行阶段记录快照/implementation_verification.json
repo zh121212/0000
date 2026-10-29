@@ -1,0 +1,12 @@
+{
+  "original_files_checked": 298,
+  "changed_original_files": [],
+  "forward_and_selftest": "passed",
+  "baseline_weights_reproduced": 35,
+  "mini_training_variants": 7,
+  "stage": "formal_training_and_validation_completed",
+  "test_evaluated": false,
+  "formal_jobs": 7,
+  "seed_weights_verified": 5,
+  "validation_prediction_metrics_verified": true
+}

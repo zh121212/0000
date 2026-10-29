@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "review_completed": true,
+  "review_scope_complete": true,
+  "verdict": "PROCEED WITH CAUTION",
+  "score": 5,
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "actual_effort": null,
+  "session_id": "/root/novelty_timexer_three",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "identity_note": "Requested native route; server model and actual effort not independently reported.",
+  "response_note": "Faithful content transcription of final agent response; original formatting and all links retained in tool transcript.",
+  "decision": "可继续整体方案，不支持三个独立原创机制；C3Raw差异需当前PD下Zero/Norm及后续独立数据验证。"
+}

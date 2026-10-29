@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "name": "LA",
+      "claim": "最后观测水位作为输出参照，不新增参数",
+      "queries": [
+        "Persistence initialization Transformer time series forecasting residual gate 2023 paper",
+        "NLinear time series forecasting last value normalization persistence residual 2025 2026",
+        "10.1007/s10489-023-04927-4"
+      ],
+      "prior": [
+        "https://github.com/cure-lab/LTSF-Linear/blob/main/models/NLinear.py",
+        "https://arxiv.org/abs/2208.14236"
+      ],
+      "delta": "当前保留TimeXer窗口归一化，仅修正输出参照；不是完整NLinear。"
+    },
+    {
+      "name": "PD",
+      "claim": "仅外部嵌入与交叉注意力Adam参数组免衰减",
+      "queries": [
+        "\"cross attention\" \"weight decay\" \"time series\"",
+        "\"time series forecasting\" \"selective weight decay\"",
+        "\"exogenous\" \"weight decay\" \"attention\" \"2026\""
+      ],
+      "prior": [
+        "https://docs.pytorch.org/docs/2.15/optim.html#per-parameter-options"
+      ],
+      "delta": "分组衰减通用；特定外部通路受抑制及恢复属于待验证发现，不能由文档判定完全重复。"
+    },
+    {
+      "name": "C3Raw",
+      "claim": "最近三步局部流量及各孔开度中心化细节，以固定训练标准化幅度复用原外部嵌入融合",
+      "queries": [
+        "time series forecasting TimeXer raw normalized local detail tokens exogenous normalization gate 2026",
+        "Non-stationary Transformers Exploring the Stationarity in Time Series Forecasting normalization statistics 2022",
+        "\"SeesawNet\" \"2026\" time series normalization",
+        "\"stationarity\" \"normalization\" \"Han\" \"ICML 2024\""
+      ],
+      "prior": [
+        "https://arxiv.org/abs/2205.14415",
+        "https://proceedings.mlr.press/v235/han24e.html",
+        "https://arxiv.org/abs/2605.14551"
+      ],
+      "delta": "具体选择控制量、最近一个分块、中心化但不窗口缩放、零新增参数复用完整TimeXer通路；不能宣称首次发现归一化丢信息。"
+    }
+  ],
+  "results": {
+    "metric": "five-seed validation RMSE mm",
+    "TimeXer": 7.624425,
+    "LA": 7.052687,
+    "LA_PD": 6.978673,
+    "LA_PD_C3Raw": 6.970142,
+    "full_vs_baseline_gain_percent": 8.5814,
+    "C3_increment_percent": 0.1222,
+    "MAE_C3": 2.916435,
+    "MAE_LA_PD": 2.914551,
+    "scope": "exploratory; current-PD Zero/Norm/factorial and independent sites not completed"
+  },
+  "inputs": [
+    "07_TimeXer改进主线/timexer_variants.py",
+    "03_实验结果/12_TimeXer改进主线/当前主线结果.md"
+  ],
+  "search_limits": "Targeted primary-source search, including May 2026 SeesawNet; not proof of exhaustive global priority."
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "novelty-check",
+  "run_id": "2026-10-29_run01",
+  "project_dir": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud",
+  "executor": "codex",
+  "executor_model": null,
+  "reviewer_backend": "codex",
+  "reviewer_session": "/root/novelty_timexer_three",
+  "requested_reviewer_model": "gpt-6-astra",
+  "requested_effort": "xhigh",
+  "reported_reviewer_model": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "route_resolution": {
+    "invocation_override": null,
+    "project_config_present": false,
+    "ARIS_REPO": null,
+    "route_helper_found": false,
+    "transport": "collaboration.spawn_agent",
+    "context": "fresh fork_turns=none",
+    "trace_writer": "inline fallback"
+  }
+}

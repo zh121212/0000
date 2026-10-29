@@ -5,3 +5,8 @@ TRAIN pid=31568 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 42, 'lr': 
 TRAIN pid=16788 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 42, 'lr': 0.001}
 TRAIN pid=21144 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 123, 'lr': 0.0001}
 TRAIN pid=28980 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 2024, 'lr': 0.0001}
+TRAIN pid=2012 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 2025, 'lr': 0.0001}
+TRAIN pid=30832 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 3407, 'lr': 0.0001}
+当前阶段训练完成：1个变体、7次训练
+EVAL V4 TimeXer_LA_PD_C3Raw
+验证集评估完成，见 E:\小论文\HPA\TimeXer_TaskA_Cloud\03_实验结果\12_TimeXer改进主线\验证集均值.csv

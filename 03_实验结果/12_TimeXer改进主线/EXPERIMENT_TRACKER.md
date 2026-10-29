@@ -5,8 +5,8 @@
 - 原七模型与数据：固定。original_files_before.json记录298个原文件校验值。
 - 独立模型：已准备，完整TimeXer加LA、C3Raw、PD；仍为102,017个参数。
 - 实际前后向、自检与旧权重复现：已通过，见forward_test.json、selftest.json。
-- 当前正式训练：主方案7次，已启动。进度以active_phase.json、progress.json及运行目录result.json为准。
-- 验证汇总：由一键入口在7次完成后自动生成当前主线结果.md、当前主线对比.csv。
+- 当前正式训练：主方案7次，已于2026-10-29 22:56完成，无失败。进度以active_phase.json、progress.json及运行目录result.json为准。
+- 验证汇总：已于2026-10-29 22:56生成当前主线结果.md、当前主线对比.csv；五个权重及逐样本验证指标已复核。
 - 新测试评价、完整消融、门控、B1—B4：本轮未启动。
 
 ## 本轮判读
