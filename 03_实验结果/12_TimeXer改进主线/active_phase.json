@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-10-29T22:32:56+08:00",
+  "signature": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+  "models": [
+    "TimeXer_LA_PD_C3Raw"
+  ],
+  "jobs": 7,
+  "full_ablation_suite": false,
+  "scope": "现有任务A，先完成当前选定变体，不自动启动其余消融或新站点",
+  "test_evaluated": false
+}

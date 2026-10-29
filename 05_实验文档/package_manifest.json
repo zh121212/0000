@@ -1,0 +1,207 @@
+{
+  "files": [
+    {
+      "path": "01_数据集/01_源文件快照/十二里河渡槽进口节制闸.csv",
+      "bytes": 1705702,
+      "sha256": "14c59a1dc897971b494b71c88ad0bb8beeca2ca294f556f705ba17bcc0e6d477"
+    },
+    {
+      "path": "01_数据集/01_源文件快照/淇河倒虹吸出口节制闸（镇平）.csv",
+      "bytes": 1946129,
+      "sha256": "88366309ead2b8c6b362ad93d5ad0b1e8c8745dee0c413cbd705a2bf691009cd"
+    },
+    {
+      "path": "02_训练流程/01_数据处理/audit_data.py",
+      "bytes": 5168,
+      "sha256": "9d172d98dedf1c31fcd40a5eae5ca0c7561ef3f17f418d417f85a25c111075e4"
+    },
+    {
+      "path": "02_训练流程/02_数据划分打包/prepare.py",
+      "bytes": 7345,
+      "sha256": "b5de590fc1adafbb8e6778329ae8a5fd31eebdc0b1f5eeb79fed0b072ac26ac9"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/adapters.py",
+      "bytes": 7322,
+      "sha256": "41319bc4d5afa0591aab9d199106026fd162a934cf5225c60ec308290b7e0c1c"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/hpa/item_lstm_Model.py",
+      "bytes": 8150,
+      "sha256": "1217d6b35cf01f696cc83732a56bdcc4548acd34c37abebcd1d7ad558fb3aa15"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/layers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/layers/Embed.py",
+      "bytes": 7202,
+      "sha256": "0a29593e3796b5a3798bd3d37c1150fc2256c559abdee36e83eecd1a05787247"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/layers/SelfAttention_Family.py",
+      "bytes": 12303,
+      "sha256": "0fea961b640b1a7db471df2e389abfb843ce8e5767aca5af141ee22dd43be66f"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/layers/StandardNorm.py",
+      "bytes": 2252,
+      "sha256": "42c0d7f8019d899e1dac23ffc81fd2e08763f7d824142a3e29842fc3847c5e15"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/layers/TimeFilter_layers.py",
+      "bytes": 10328,
+      "sha256": "ed0e14abd8eda187bb0756a3f5f50dc47d3a10dd0310a4a5effe3b2fd0e4970a"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/layers/Transformer_EncDec.py",
+      "bytes": 5064,
+      "sha256": "031b26a6ed774442bfb4cf316d4a605f7642cd652a4c2b82f5e3d1fcdc47b098"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/LICENSE",
+      "bytes": 1105,
+      "sha256": "3892254202fc16573828d34ec901ab765d8eb73a03d174b131a49771adcd8d64"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/models/Informer.py",
+      "bytes": 6542,
+      "sha256": "907b1244cb836838c6f8722c4c9ea5033871b8c50ff54d1b882db5354a78937d"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/models/iTransformer.py",
+      "bytes": 5867,
+      "sha256": "6de6b88dc0bfcaa36599c12626d611205acca7aa4d572f8da5a769ef7afee232"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/models/TimeFilter.py",
+      "bytes": 6946,
+      "sha256": "6ebd60fc670dc33fad4db2144e5bfbcb905117d2a0e2d98fd143d43f999f115a"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/models/TimeXer.py",
+      "bytes": 9243,
+      "sha256": "498165f2532a8434c39060471e5a150af81a16fa9124dc6163d33e885fa2aeae"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/README.md",
+      "bytes": 30933,
+      "sha256": "f79bd90ec18fe84a51aa8f4f60356466632e06c74597f72aae6c48a7e22b513f"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/requirements.txt",
+      "bytes": 536,
+      "sha256": "3eda908ac123d0c47bf4dbb2cae868d20df6a05cc5a5c606b516bf541a26e55d"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_训练流程/03_模型设计/vendor/tsl/utils/masking.py",
+      "bytes": 858,
+      "sha256": "c22de70ad076f4eeecc857aba984741da05da54375333399ff2742b041544986"
+    },
+    {
+      "path": "02_训练流程/04_训练模型/train.py",
+      "bytes": 23650,
+      "sha256": "637989547c923cb892a2e7b12ac146faa56bcfbd0a4dc59bc01b0617125ec3f0"
+    },
+    {
+      "path": "02_训练流程/05_evaluate/metrics.py",
+      "bytes": 835,
+      "sha256": "5f5586c5d667f8f0e4da9b1b9809ac8135185c4258990c07e5ce194615b599fc"
+    },
+    {
+      "path": "02_训练流程/05_evaluate/report.py",
+      "bytes": 2301,
+      "sha256": "dd1456d5ce32a1961d7d159fd8ba322851abcaef3ee261504379a1db43aed9a3"
+    },
+    {
+      "path": "04_实验配置/protocol.json",
+      "bytes": 1868,
+      "sha256": "6d64e18cdc74e8e15158a8d2367dc66a926ca0b67aa197e9b86225f5ee069334"
+    },
+    {
+      "path": "05_实验文档/01_任务流程与代码结构.md",
+      "bytes": 6115,
+      "sha256": "9a101e6ddf87e954e9cd2ce5fce90de415d1d428d8adfa4df16e936c597b6194"
+    },
+    {
+      "path": "05_实验文档/02_模型与改进边界.md",
+      "bytes": 4042,
+      "sha256": "4554a4ebb9be2548233c05f760731a59c6c177e6cc4b29e5b7ff02e939137d03"
+    },
+    {
+      "path": "05_实验文档/03_云端运行说明.md",
+      "bytes": 4422,
+      "sha256": "89b6607dc03ad4538df3b7ca7a2040ea64b596e499d8ef8f673393f272e588fe"
+    },
+    {
+      "path": "05_实验文档/source_manifest.json",
+      "bytes": 5848,
+      "sha256": "7373eec67fbe9568e20cb641e0a184e4e69d561f4cd5449e32902dbced04e94a"
+    },
+    {
+      "path": "05_实验文档/整理检查记录.json",
+      "bytes": 1375,
+      "sha256": "1b70554cd7418acc17bc1271514643115ee80a90fb1da72bbda5462981e05cf3"
+    },
+    {
+      "path": "05_实验文档/本地暂停记录.json",
+      "bytes": 456,
+      "sha256": "92507345a83b7971b793e4fee7ac7c025865d0d268fd5fadfb339b2cd5c7813e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6113,
+      "sha256": "cd6a9514f394880a49385bca8b5729d9f00a982b1daa41697705834cafac4977"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 274,
+      "sha256": "9e7d2dec989c29a9394c1adf59575c7de71b938595a00d0384519d8e68c43e34"
+    },
+    {
+      "path": "run.py",
+      "bytes": 286,
+      "sha256": "7e1f28df6b9a03e3f31267fcebede8b22f1cfd8e0c794f7e293130329a7e6e54"
+    },
+    {
+      "path": "tests/test_calendar_inputs.py",
+      "bytes": 6424,
+      "sha256": "2cc790b133861305d2dff482e0ed939017183203c5c1b8b29492e8f494c21a0b"
+    },
+    {
+      "path": "02_训练流程/05_evaluate/plot_predictions.py",
+      "bytes": 4864,
+      "sha256": "a11da2fe6bb66ee2a89e23e867fca2e069e614577ac6c9513aae0e547261bbb2"
+    },
+    {
+      "path": "tests/test_metrics_and_figures.py",
+      "bytes": 3391,
+      "sha256": "683e403d7b29d9a73538686b6e912239d8a53ca54320b605d7f101a596ecd0a0"
+    },
+    {
+      "path": "parallel_train.py",
+      "bytes": 10210,
+      "sha256": "3217b3eff6d637249bcc1c18e3f56fe66767ccc4c1d6eb4c2c80d28402a9cfa9"
+    },
+    {
+      "path": "tests/test_parallel_plan.py",
+      "bytes": 3804,
+      "sha256": "3f74ec4b2d78516650a0240bc29ff46820efd2e790956e2af61400580e27d39f"
+    }
+  ],
+  "excluded": "本地生成的数据包、结果、权重、缓存和旧调度器；云端自行重建",
+  "local_training_started": false,
+  "note": "原模型及训练工作函数保持原样；两任务并行接管新增5项调度检查均在本地与服务器通过，原6项功能检查此前已通过。正式进度以服务器运行记录为准。"
+}

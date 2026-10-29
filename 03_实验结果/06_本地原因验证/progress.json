@@ -1,0 +1,21 @@
+{
+  "phase": "completed_and_verified",
+  "completed_jobs": 14,
+  "total_jobs": 14,
+  "failed": [],
+  "verification": {
+    "status": "passed",
+    "baseline_fingerprint_unchanged": true,
+    "original_checkpoints_verified": 49,
+    "local_checkpoints_verified": 14,
+    "prediction_files_recomputed": 30,
+    "metric_rows": 132,
+    "original_eval_rows": 288,
+    "permutation_runs_original": 150,
+    "permutation_runs_variant": 150,
+    "data_packs_verified": 4,
+    "same_parameter_count": 102017,
+    "original_protocol_unchanged": true,
+    "test_used_for_selection": false
+  }
+}

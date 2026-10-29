@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-27T18:36:01+08:00",
+  "job": {
+    "task": "A",
+    "model": "HPA",
+    "lr": 0.001,
+    "seed": 2024
+  },
+  "epoch": 33,
+  "best_epoch": 23,
+  "best_val_RMSE": 0.008286131659428403,
+  "elapsed_seconds": 240.80440864712
+}

@@ -1,0 +1,55 @@
+{
+  "model": "TimeXer_LastAnchor_LinearBypass",
+  "lr": 0.001,
+  "candidates": [
+    {
+      "task": "A",
+      "model": "TimeXer_LastAnchor_LinearBypass",
+      "seed": 42,
+      "lr": 0.0001,
+      "status": "completed",
+      "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+      "best_val_RMSE": 0.006839834219795699,
+      "best_epoch": 11,
+      "epochs_run": 21,
+      "training_seconds": 73.85899999993853,
+      "parameters": 102222,
+      "device": "cuda",
+      "checkpoint_sha256": "b8a967a3dddf7f04e2bbda05b09ed1b5bae9ff19413e0ba36395d7ec414941d2",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LastAnchor_LinearBypass",
+      "seed": 42,
+      "lr": 0.0003,
+      "status": "completed",
+      "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+      "best_val_RMSE": 0.006858429528848019,
+      "best_epoch": 4,
+      "epochs_run": 14,
+      "training_seconds": 55.96900000004098,
+      "parameters": 102222,
+      "device": "cuda",
+      "checkpoint_sha256": "b5fd0b77da289bac8fe43074029d7920d2a093436d909fcc6dd2a2f2c093f108",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LastAnchor_LinearBypass",
+      "seed": 42,
+      "lr": 0.001,
+      "status": "completed",
+      "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+      "best_val_RMSE": 0.006788439596114977,
+      "best_epoch": 5,
+      "epochs_run": 15,
+      "training_seconds": 57.59399999992456,
+      "parameters": 102222,
+      "device": "cuda",
+      "checkpoint_sha256": "056ad01902e74d6bc21632d1974100d151188dedc5236017e0002d2eacdc2974",
+      "test_set_evaluated": false
+    }
+  ],
+  "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c"
+}

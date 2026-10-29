@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "task_A": {
+    "variants": [
+      {
+        "model": "TimeXer_PD",
+        "channels": 17,
+        "x_mark_columns": 3,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA",
+        "channels": 17,
+        "x_mark_columns": 3,
+        "parameters": 102017,
+        "exempt_parameters": 0,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD",
+        "channels": 17,
+        "x_mark_columns": 3,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD_C3Raw",
+        "channels": 17,
+        "x_mark_columns": 6,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD_C3Zero",
+        "channels": 17,
+        "x_mark_columns": 6,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD_C3Norm",
+        "channels": 17,
+        "x_mark_columns": 6,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_C3Raw",
+        "channels": 17,
+        "x_mark_columns": 6,
+        "parameters": 102017,
+        "exempt_parameters": 0,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      }
+    ],
+    "control_fields": [
+      "shierlihe:瞬时流量",
+      "shierlihe:孔1实际开度",
+      "shierlihe:孔2实际开度"
+    ]
+  },
+  "fake_4_gates": {
+    "variants": [
+      {
+        "model": "TimeXer_PD",
+        "channels": 19,
+        "x_mark_columns": 3,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA",
+        "channels": 19,
+        "x_mark_columns": 3,
+        "parameters": 102017,
+        "exempt_parameters": 0,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD",
+        "channels": 19,
+        "x_mark_columns": 3,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD_C3Raw",
+        "channels": 19,
+        "x_mark_columns": 8,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD_C3Zero",
+        "channels": 19,
+        "x_mark_columns": 8,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_PD_C3Norm",
+        "channels": 19,
+        "x_mark_columns": 8,
+        "parameters": 102017,
+        "exempt_parameters": 34112,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      },
+      {
+        "model": "TimeXer_LA_C3Raw",
+        "channels": 19,
+        "x_mark_columns": 8,
+        "parameters": 102017,
+        "exempt_parameters": 0,
+        "output_shape": [
+          8,
+          1
+        ],
+        "finite_gradients": true
+      }
+    ],
+    "control_fields": [
+      "down:瞬时流量",
+      "down:孔1实际开度",
+      "down:孔2实际开度",
+      "down:孔3实际开度",
+      "down:孔4实际开度"
+    ]
+  }
+}

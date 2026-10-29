@@ -1,0 +1,167 @@
+{
+  "model": "TimeXer_LastAnchor_Control3Raw",
+  "kind": "control3",
+  "task": "A",
+  "seq_len": 12,
+  "pred_len": 1,
+  "total_channels": 17,
+  "physical_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "calendar_indices": [
+    8,
+    9,
+    10
+  ],
+  "detail_indices": [
+    13,
+    14,
+    15
+  ],
+  "seeds": [
+    42,
+    123,
+    2024,
+    2025,
+    3407
+  ],
+  "training": {
+    "protocol": "task_A_cloud_five_seeds_v1",
+    "confirmed_task": "在预测发出时刻只使用当时及以前的实测记录，预测30分钟后的目标闸前水位",
+    "source_subdir": "01_数据集/01_源文件快照",
+    "stations": {
+      "qihe": "淇河倒虹吸出口节制闸（镇平）.csv",
+      "shierlihe": "十二里河渡槽进口节制闸.csv"
+    },
+    "tasks": {
+      "A": [
+        "qihe",
+        "shierlihe"
+      ]
+    },
+    "models": [
+      "HPA",
+      "LSTM",
+      "MLP",
+      "Informer",
+      "TimeXer",
+      "iTransformer",
+      "TimeFilter"
+    ],
+    "ablations": [],
+    "seq_len": 12,
+    "pred_len": 1,
+    "frequency_minutes": 30,
+    "train_ratio": 0.7,
+    "validation_end_ratio": 0.8,
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "seeds": [
+      42,
+      123,
+      2024,
+      2025,
+      3407
+    ],
+    "epochs": 100,
+    "patience": 10,
+    "batch_size": 64,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "gradient_clip": 5.0,
+    "timefilter_aux_weight": 0.05,
+    "device": "cuda",
+    "cpu_threads": 2,
+    "job_timeout_seconds": 3600,
+    "water_level_unit": "m",
+    "flow_unit": "m³/s",
+    "gate_opening_unit": "mm",
+    "notes": "当前只训练任务A；HPA仅为对照，不安排HPA消融。改进工作以TimeXer为基础，具体方案尚未制定。窗口12步是基准设置，不代表已证明最优。",
+    "physical_fields": [
+      "闸前水位",
+      "闸后水位",
+      "闸前闸后水位差",
+      "瞬时流量"
+    ],
+    "calendar_features": [
+      "time_of_day",
+      "weekday",
+      "week_of_month"
+    ],
+    "input_scope": "上游站和目标站均使用全部指定物理字段及每孔开度的12步历史；公共日历特征加入一次",
+    "research_backbone": "TimeXer",
+    "execution_state": "已获用户授权上传云服务器，执行完整训练、测试与预测对比作图",
+    "selected_lr": 0.001
+  },
+  "features": [
+    "qihe:闸前水位",
+    "qihe:闸后水位",
+    "qihe:闸前闸后水位差",
+    "qihe:瞬时流量",
+    "qihe:孔1实际开度",
+    "qihe:孔2实际开度",
+    "qihe:孔3实际开度",
+    "qihe:孔4实际开度",
+    "time_of_day",
+    "weekday",
+    "week_of_month",
+    "shierlihe:闸后水位",
+    "shierlihe:闸前闸后水位差",
+    "shierlihe:瞬时流量",
+    "shierlihe:孔1实际开度",
+    "shierlihe:孔2实际开度",
+    "shierlihe:闸前水位"
+  ],
+  "units": {
+    "water": "m",
+    "flow": "m3/s",
+    "gate": "mm"
+  },
+  "input_format": "[B,12,17]; physical fields use copied training scaler, calendar fields remain0..1",
+  "backbone_args": {
+    "task_name": "long_term_forecast",
+    "features": "MS",
+    "seq_len": 12,
+    "pred_len": 1,
+    "label_len": 6,
+    "use_norm": 1,
+    "patch_len": 3,
+    "enc_in": 14,
+    "dec_in": 14,
+    "c_out": 14,
+    "d_model": 64,
+    "d_ff": 128,
+    "n_heads": 4,
+    "e_layers": 2,
+    "d_layers": 1,
+    "dropout": 0.1,
+    "factor": 3,
+    "activation": "gelu",
+    "embed": "timeF",
+    "freq": "h",
+    "distil": true,
+    "alpha": 0.1,
+    "top_p": 0.5,
+    "pos": true,
+    "output_attention": false
+  },
+  "validation_RMSE_m": 0.00687020229220324,
+  "validation_MAE_m": 0.00287015513543808,
+  "test_evaluated": false
+}

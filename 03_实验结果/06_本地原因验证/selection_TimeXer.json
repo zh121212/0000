@@ -1,0 +1,57 @@
+{
+  "model": "TimeXer",
+  "lr": 0.0001,
+  "selection_seed": 42,
+  "selection_metric": "validation_RMSE",
+  "candidates": [
+    {
+      "task": "A",
+      "model": "TimeXer",
+      "seed": 42,
+      "lr": 0.0001,
+      "status": "completed",
+      "fingerprint": "b1708faa2dd8202053055fd70bb4189381eeac60f061e6fa5bf4d112ff86b623",
+      "best_val_RMSE": 0.007611277517957878,
+      "best_epoch": 21,
+      "epochs_run": 31,
+      "training_seconds": 98.625,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "3288ec159f25ecdc5320078a7ba44f0552ef946f03f6f2dd9893f95fbe535149",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer",
+      "seed": 42,
+      "lr": 0.0003,
+      "status": "completed",
+      "fingerprint": "b1708faa2dd8202053055fd70bb4189381eeac60f061e6fa5bf4d112ff86b623",
+      "best_val_RMSE": 0.007626705334216447,
+      "best_epoch": 7,
+      "epochs_run": 17,
+      "training_seconds": 53.625,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "9bd33d5091f030efb2525f072b07ce59a1380477e717781d34dd0a863db30c7b",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer",
+      "seed": 42,
+      "lr": 0.001,
+      "status": "completed",
+      "fingerprint": "b1708faa2dd8202053055fd70bb4189381eeac60f061e6fa5bf4d112ff86b623",
+      "best_val_RMSE": 0.007671744149573346,
+      "best_epoch": 2,
+      "epochs_run": 12,
+      "training_seconds": 39.14099999994505,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "3317d43c49fd1eed18fc43b495132f3301c6a412b5b09d9155c4919448d7191a",
+      "test_set_evaluated": false
+    }
+  ],
+  "fingerprint": "b1708faa2dd8202053055fd70bb4189381eeac60f061e6fa5bf4d112ff86b623"
+}

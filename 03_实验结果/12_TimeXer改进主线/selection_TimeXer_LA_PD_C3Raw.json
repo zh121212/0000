@@ -1,0 +1,56 @@
+{
+  "model": "TimeXer_LA_PD_C3Raw",
+  "lr": 0.0001,
+  "metric": "验证RMSE",
+  "candidates": [
+    {
+      "task": "A",
+      "model": "TimeXer_LA_PD_C3Raw",
+      "seed": 42,
+      "lr": 0.0001,
+      "status": "completed",
+      "fingerprint": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+      "best_val_RMSE": 0.006976239402396861,
+      "best_epoch": 37,
+      "epochs_run": 47,
+      "training_seconds": 411.1409999999996,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "a7ac8ff4ae091626fa99d15b301296e71a6e3aeda401d83e29375b8a80534f7d",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LA_PD_C3Raw",
+      "seed": 42,
+      "lr": 0.0003,
+      "status": "completed",
+      "fingerprint": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+      "best_val_RMSE": 0.00698823173159004,
+      "best_epoch": 14,
+      "epochs_run": 24,
+      "training_seconds": 301.7340000000004,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "8704aea0f2759796751401767423cbe77df0ffbfa5ef69a195099e6e3d681ec1",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LA_PD_C3Raw",
+      "seed": 42,
+      "lr": 0.001,
+      "status": "completed",
+      "fingerprint": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+      "best_val_RMSE": 0.0069946012104667695,
+      "best_epoch": 5,
+      "epochs_run": 15,
+      "training_seconds": 52.53199999999924,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "44c66b7b5d58bd0a9a053eb65d577141a17a53394d839cb4b8cc8995037e8927",
+      "test_set_evaluated": false
+    }
+  ],
+  "signature": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020"
+}

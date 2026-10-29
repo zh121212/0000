@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeFilter",
+  "lr": 0.0003,
+  "seed": 2024,
+  "MAE": 0.0022306277713988556,
+  "MAPE": 0.0015668263021156755,
+  "RMSE": 0.003760323030848314,
+  "skill_vs_persistence": 0.020576803317741366,
+  "n": 3217,
+  "best_epoch": 7,
+  "training_seconds": 253.43668762291782,
+  "parameters": 44401,
+  "inference_seconds": 1.0929610379971564,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

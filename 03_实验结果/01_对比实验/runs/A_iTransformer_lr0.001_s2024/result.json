@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "iTransformer",
+  "lr": 0.001,
+  "seed": 2024,
+  "status": "completed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "best_val_RMSE": 0.007024071720967497,
+  "best_epoch": 7,
+  "epochs_run": 17,
+  "training_seconds": 94.11176785617135,
+  "parameters": 67969,
+  "device": "cuda",
+  "checkpoint_sha256": "f6eec341cd7a64d65175b146d28b9a1f68d46c5c2ef19afaebea78fc48ca7d78",
+  "test_set_evaluated": false
+}

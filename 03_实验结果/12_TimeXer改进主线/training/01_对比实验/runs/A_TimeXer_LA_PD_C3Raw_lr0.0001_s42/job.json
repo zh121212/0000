@@ -1,0 +1,8 @@
+{
+  "task": "A",
+  "model": "TimeXer_LA_PD_C3Raw",
+  "seed": 42,
+  "lr": 0.0001,
+  "fingerprint": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+  "started_at": "2026-10-29T22:33:06+08:00"
+}

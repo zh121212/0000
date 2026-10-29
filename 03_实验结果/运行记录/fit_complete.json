@@ -1,0 +1,55 @@
+{
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "completed_at": "2026-10-27T19:17:50+08:00",
+  "selected": {
+    "A/HPA": {
+      "task": "A",
+      "model": "HPA",
+      "lr": 0.001,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.008023734894389708
+    },
+    "A/LSTM": {
+      "task": "A",
+      "model": "LSTM",
+      "lr": 0.001,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.007703900196250747
+    },
+    "A/MLP": {
+      "task": "A",
+      "model": "MLP",
+      "lr": 0.0001,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.009087597678761153
+    },
+    "A/Informer": {
+      "task": "A",
+      "model": "Informer",
+      "lr": 0.0003,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.01100537468295793
+    },
+    "A/TimeXer": {
+      "task": "A",
+      "model": "TimeXer",
+      "lr": 0.0001,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.00761127776193314
+    },
+    "A/iTransformer": {
+      "task": "A",
+      "model": "iTransformer",
+      "lr": 0.001,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.007061088790465543
+    },
+    "A/TimeFilter": {
+      "task": "A",
+      "model": "TimeFilter",
+      "lr": 0.0003,
+      "selection_seed": 42,
+      "best_val_RMSE": 0.007427466030718714
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "parameters": 102017,
+  "all_backbone_parameter_names_shapes_retained": true,
+  "calendar_preserved": true,
+  "input_unchanged": true,
+  "recent_patch_zero_sum": true,
+  "amplitude_scaling_verified": true,
+  "static_detail_zero": true,
+  "finite_parameter_gradients_all_modes": true,
+  "original_external_tokens": 16,
+  "new_external_tokens": 29
+}

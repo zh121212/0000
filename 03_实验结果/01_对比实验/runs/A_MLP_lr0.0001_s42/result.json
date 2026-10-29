@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "MLP",
+  "lr": 0.0001,
+  "seed": 42,
+  "status": "completed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "best_val_RMSE": 0.009087597678761153,
+  "best_epoch": 69,
+  "epochs_run": 79,
+  "training_seconds": 79.71507074404508,
+  "parameters": 17345,
+  "device": "cuda",
+  "checkpoint_sha256": "a41e46d517e5dc0f2182b79f14bbe9133464aa364052be62c70bda07bbd3cdfe",
+  "test_set_evaluated": false
+}

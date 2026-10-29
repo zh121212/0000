@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "Informer",
+  "lr": 0.0003,
+  "seed": 2024,
+  "MAE": 0.009263990511272921,
+  "MAPE": 0.006507758773502991,
+  "RMSE": 0.014457654454704087,
+  "skill_vs_persistence": -13.478239541751533,
+  "n": 3217,
+  "best_epoch": 22,
+  "training_seconds": 300.49606732302345,
+  "parameters": 138065,
+  "inference_seconds": 0.5042434830684215,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

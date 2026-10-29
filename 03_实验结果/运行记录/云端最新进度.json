@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-27T19:53:08+08:00",
+  "status": "completed",
+  "completed_at": "2026-10-27T19:18:38.450561+08:00",
+  "completed_jobs": 49,
+  "formal_seed_results": 35,
+  "unified_table_rows": 50,
+  "figures": {
+    "png": 36,
+    "pdf": 36,
+    "svg": 36
+  },
+  "all_checkpoints_verified": true,
+  "all_prediction_metrics_verified": true,
+  "source_archive_sha256": "ee1ec8a5d6f0b0cc3308e5a9dfb8b804158fe518a53b924b010c30e167c9b302"
+}

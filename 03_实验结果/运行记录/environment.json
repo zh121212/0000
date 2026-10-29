@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-27T17:07:25+08:00",
+  "python": "/root/autodl-tmp/TimeXer_TaskA_Cloud_20261027/.venv/bin/python",
+  "python_version": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "einops": "0.8.1",
+    "reformer-pytorch": "1.4.4"
+  },
+  "cuda_build": "12.8",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

@@ -1,0 +1,71 @@
+{
+  "sample_count": 64,
+  "rows": [
+    {
+      "seed": 42,
+      "layers": {
+        "0": {
+          "attention_min": 0.0625,
+          "attention_max": 0.0625
+        },
+        "1": {
+          "attention_min": 0.0625,
+          "attention_max": 0.0625
+        }
+      }
+    },
+    {
+      "seed": 123,
+      "layers": {
+        "0": {
+          "attention_min": 0.0625,
+          "attention_max": 0.0625
+        },
+        "1": {
+          "attention_min": 0.0625,
+          "attention_max": 0.0625
+        }
+      }
+    },
+    {
+      "seed": 2024,
+      "layers": {
+        "0": {
+          "attention_min": 0.0624999925494194,
+          "attention_max": 0.0625000074505806
+        },
+        "1": {
+          "attention_min": 0.0624999925494194,
+          "attention_max": 0.0625000074505806
+        }
+      }
+    },
+    {
+      "seed": 2025,
+      "layers": {
+        "0": {
+          "attention_min": 0.062498509883880615,
+          "attention_max": 0.06250130385160446
+        },
+        "1": {
+          "attention_min": 0.062498319894075394,
+          "attention_max": 0.06250140070915222
+        }
+      }
+    },
+    {
+      "seed": 3407,
+      "layers": {
+        "0": {
+          "attention_min": 0.06248300522565842,
+          "attention_max": 0.0625181645154953
+        },
+        "1": {
+          "attention_min": 0.06248251348733902,
+          "attention_max": 0.06251437216997147
+        }
+      }
+    }
+  ],
+  "note": "first 64 validation windows; frozen evaluation only"
+}

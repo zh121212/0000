@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "models": [
+    "TimeFilter",
+    "iTransformer",
+    "TimeXer",
+    "LSTM",
+    "HPA",
+    "MLP",
+    "Informer"
+  ],
+  "seeds": [
+    42,
+    123,
+    2024,
+    2025,
+    3407
+  ],
+  "finalRuns": 35,
+  "consistentFingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "testSamples": 3217,
+  "maxMetricRecalculationDifference": 3.552713678800501e-14,
+  "summaryMeanAndSdVerified": true,
+  "liveFormulaRecalculationVerified": true,
+  "originalFilesUnchanged": true,
+  "sourceHashes": {
+    "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\04_实验配置\\protocol.json": "6d64e18cdc74e8e15158a8d2367dc66a926ca0b67aa197e9b86225f5ee069334",
+    "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\运行记录\\selection.json": "5e6d90f39986e30c5a3e4652389eb728ec5b0d8c2cc704173f4691b1d658337c",
+    "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\01_对比实验\\all_seed_metrics.csv": "5620d11ae462e7330eeae81cdf1228df2c190714df958a99c13c28aaff2f7542",
+    "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\01_数据集\\03_划分打包\\packing_audit.json": "8616306a3bd8f2a454e0f2797cb52dc7af526f6ef25ad258c8ef99806b6f03ea"
+  },
+  "outputPath": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\outputs\\01a18747-7594-7e82-abb3-91a33d6ca653\\数据集1_七模型同设置对比结果.xlsx"
+}

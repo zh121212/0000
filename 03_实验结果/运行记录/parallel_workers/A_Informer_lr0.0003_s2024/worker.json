@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-27T18:49:45+08:00",
+  "job": {
+    "task": "A",
+    "model": "Informer",
+    "lr": 0.0003,
+    "seed": 2024
+  },
+  "epoch": 32,
+  "best_epoch": 22,
+  "best_val_RMSE": 0.011818690904457117,
+  "elapsed_seconds": 300.4956244479399
+}

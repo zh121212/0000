@@ -1,0 +1,8 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor_LinearBypass",
+  "seed": 123,
+  "lr": 0.001,
+  "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+  "started_at": "2026-10-29T18:06:17+08:00"
+}

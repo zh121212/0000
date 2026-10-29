@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer",
+  "seed": 42,
+  "lr": 0.0003,
+  "status": "completed",
+  "fingerprint": "ebad40f9ccfd6989fd0f383b0940da00a0c7b55468bc6eb7649c87b9a3debfad",
+  "best_val_RMSE": 0.007119582870614587,
+  "best_epoch": 14,
+  "epochs_run": 24,
+  "training_seconds": 106.23399999993853,
+  "parameters": 102017,
+  "device": "cuda",
+  "checkpoint_sha256": "f9be2829eeadfaea84161242bb68df7bebb017efc110411e233becd27faa8cd3",
+  "test_set_evaluated": false
+}

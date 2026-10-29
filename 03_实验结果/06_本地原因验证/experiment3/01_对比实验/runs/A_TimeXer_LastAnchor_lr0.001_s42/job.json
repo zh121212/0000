@@ -1,0 +1,8 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor",
+  "seed": 42,
+  "lr": 0.001,
+  "fingerprint": "b1708faa2dd8202053055fd70bb4189381eeac60f061e6fa5bf4d112ff86b623",
+  "started_at": "2026-10-27T22:28:43+08:00"
+}

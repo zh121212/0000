@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-29T17:57:37+08:00",
+  "job": {
+    "task": "A",
+    "model": "TimeXer_LastAnchor_LinearBypass",
+    "seed": 42,
+    "lr": 0.0003
+  },
+  "epoch": 14,
+  "best_epoch": 4,
+  "best_val_RMSE": 0.006858429528848019,
+  "elapsed_seconds": 55.96900000004098
+}

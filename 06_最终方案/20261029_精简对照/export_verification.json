@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "seed": 42,
+      "samples": 1608,
+      "max_export_difference_m": 2.842170943040401e-14,
+      "batch1_consistent": true
+    },
+    {
+      "seed": 123,
+      "samples": 1608,
+      "max_export_difference_m": 2.842170943040401e-14,
+      "batch1_consistent": true
+    },
+    {
+      "seed": 2024,
+      "samples": 1608,
+      "max_export_difference_m": 2.842170943040401e-14,
+      "batch1_consistent": true
+    },
+    {
+      "seed": 2025,
+      "samples": 1608,
+      "max_export_difference_m": 2.842170943040401e-14,
+      "batch1_consistent": true
+    },
+    {
+      "seed": 3407,
+      "samples": 1608,
+      "max_export_difference_m": 2.842170943040401e-14,
+      "batch1_consistent": true
+    }
+  ],
+  "parameters": 102017,
+  "test_evaluated": false
+}

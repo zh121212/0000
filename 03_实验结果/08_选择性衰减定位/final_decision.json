@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "conditions": [
+    {
+      "condition": "uniform_1e-4",
+      "val_RMSE_mm": 7.052686502014421,
+      "val_RMSE_std_mm": 0.02619105642415249,
+      "val_MAE_mm": 2.92849366387172,
+      "RMSE_wins_vs_original": 0,
+      "MAE_wins_vs_original": 0,
+      "RMSE_wins_vs_persistence": 5
+    },
+    {
+      "condition": "uniform_zero",
+      "val_RMSE_mm": 6.959326673193241,
+      "val_RMSE_std_mm": 0.04699447024288809,
+      "val_MAE_mm": 2.9139655365137602,
+      "RMSE_wins_vs_original": 5,
+      "MAE_wins_vs_original": 3,
+      "RMSE_wins_vs_persistence": 5
+    },
+    {
+      "condition": "external_exempt",
+      "val_RMSE_mm": 6.9786726298915385,
+      "val_RMSE_std_mm": 0.013785027019048532,
+      "val_MAE_mm": 2.9145511176719596,
+      "RMSE_wins_vs_original": 5,
+      "MAE_wins_vs_original": 3,
+      "RMSE_wins_vs_persistence": 5
+    }
+  ],
+  "selection_metric": "five-seed validation RMSE",
+  "selected_condition_by_metric": "uniform_zero",
+  "selected_model_family": "TimeXer_LastAnchor",
+  "selected_lr": 0.001,
+  "new_training_jobs_total": 21,
+  "permutation_runs_total": 750,
+  "test_evaluated": false,
+  "architecture_changed": false,
+  "reason": "coupled weight decay shrinks weak external paths; selective exemption restores paths and recovers part of accuracy without changing architecture",
+  "remaining_tradeoff": "removing more regularization benefits fast changes but harms stable and/or moderate regimes",
+  "module_status": "no module added: training constraint explains a verified part of the issue; calendar utility and a reliable future-state gate are not established"
+}

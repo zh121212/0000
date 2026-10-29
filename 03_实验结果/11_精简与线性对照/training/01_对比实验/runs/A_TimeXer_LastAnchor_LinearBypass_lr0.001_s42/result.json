@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor_LinearBypass",
+  "seed": 42,
+  "lr": 0.001,
+  "status": "completed",
+  "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+  "best_val_RMSE": 0.006788439596114977,
+  "best_epoch": 5,
+  "epochs_run": 15,
+  "training_seconds": 57.59399999992456,
+  "parameters": 102222,
+  "device": "cuda",
+  "checkpoint_sha256": "056ad01902e74d6bc21632d1974100d151188dedc5236017e0002d2eacdc2974",
+  "test_set_evaluated": false
+}

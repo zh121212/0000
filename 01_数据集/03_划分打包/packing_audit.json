@@ -1,0 +1,95 @@
+{
+  "protocol": "task_A_cloud_five_seeds_v1",
+  "raw_sha256": {
+    "淇河倒虹吸出口节制闸（镇平）.csv": "88366309ead2b8c6b362ad93d5ad0b1e8c8745dee0c413cbd705a2bf691009cd",
+    "十二里河渡槽进口节制闸.csv": "14c59a1dc897971b494b71c88ad0bb8beeca2ca294f556f705ba17bcc0e6d477"
+  },
+  "protocol_sha256": "6d64e18cdc74e8e15158a8d2367dc66a926ca0b67aa197e9b86225f5ee069334",
+  "prepare_sha256": "b5de590fc1adafbb8e6778329ae8a5fd31eebdc0b1f5eeb79fed0b072ac26ac9",
+  "rows": 16081,
+  "train_end": 11256,
+  "validation_end": 12864,
+  "tasks": {
+    "A": {
+      "upstream": "qihe",
+      "target_station": "shierlihe",
+      "features": [
+        "qihe:闸前水位",
+        "qihe:闸后水位",
+        "qihe:闸前闸后水位差",
+        "qihe:瞬时流量",
+        "qihe:孔1实际开度",
+        "qihe:孔2实际开度",
+        "qihe:孔3实际开度",
+        "qihe:孔4实际开度",
+        "time_of_day",
+        "weekday",
+        "week_of_month",
+        "shierlihe:闸后水位",
+        "shierlihe:闸前闸后水位差",
+        "shierlihe:瞬时流量",
+        "shierlihe:孔1实际开度",
+        "shierlihe:孔2实际开度",
+        "shierlihe:闸前水位"
+      ],
+      "up_channels": 11,
+      "local_channels": 6,
+      "upstream_flow_index": 3,
+      "physical_scaler_features": [
+        "qihe:闸前水位",
+        "qihe:闸后水位",
+        "qihe:闸前闸后水位差",
+        "qihe:瞬时流量",
+        "qihe:孔1实际开度",
+        "qihe:孔2实际开度",
+        "qihe:孔3实际开度",
+        "qihe:孔4实际开度",
+        "shierlihe:闸后水位",
+        "shierlihe:闸前闸后水位差",
+        "shierlihe:瞬时流量",
+        "shierlihe:孔1实际开度",
+        "shierlihe:孔2实际开度",
+        "shierlihe:闸前水位"
+      ],
+      "total_channels": 17,
+      "target_channel": 16,
+      "time_feature_indices": [
+        8,
+        9,
+        10
+      ],
+      "splits": {
+        "train": {
+          "samples": 11244,
+          "start": "2025-01-01 06:00:00",
+          "end": "2025-08-23 11:30:00"
+        },
+        "val": {
+          "samples": 1608,
+          "start": "2025-08-23 12:00:00",
+          "end": "2025-09-25 23:30:00"
+        },
+        "test": {
+          "samples": 3217,
+          "start": "2025-09-26 00:00:00",
+          "end": "2025-12-02 00:00:00"
+        }
+      },
+      "scaler_fit_indices": [
+        0,
+        11255
+      ],
+      "input_offsets": [
+        -12,
+        -1
+      ],
+      "label_offset": 0
+    }
+  },
+  "output_sha256": {
+    "A/scaler.npz": "6361d7ede03731f9a3933ca0b0c9fa8943ba30ca7e1c3569a71a586ff2ba5089",
+    "A/test.npz": "ac652bfe0f257fd1d0c3944578e0b5ee768f8c7a649898465537f5ac9cf5e694",
+    "A/train.npz": "df0fd59b56146a98639320800e71bf56c10c680f8bfc34e207ee8297a55dca29",
+    "A/val.npz": "61cc9a05d4d36a51a6dfba4b14b5d3dcf7e9b78cdbe44f8fd7eb434170032628"
+  }
+}

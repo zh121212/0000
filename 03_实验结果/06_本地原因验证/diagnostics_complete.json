@@ -1,0 +1,8 @@
+{
+  "completed_at": "2026-10-27T22:26:01+08:00",
+  "baseline_fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "experiment1_checkpoint_count": 35,
+  "experiment2_runs": 150,
+  "test_set_used": false,
+  "max_reproduction_difference_m": 1.3151882100742585e-09
+}

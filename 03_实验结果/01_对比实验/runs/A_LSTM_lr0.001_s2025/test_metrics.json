@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "LSTM",
+  "lr": 0.001,
+  "seed": 2025,
+  "MAE": 0.004000800360538767,
+  "MAPE": 0.0028109086794433015,
+  "RMSE": 0.00579649479595874,
+  "skill_vs_persistence": -1.3272925376519047,
+  "n": 3217,
+  "best_epoch": 41,
+  "training_seconds": 61.82273410400376,
+  "parameters": 21313,
+  "inference_seconds": 0.021198762813583016,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

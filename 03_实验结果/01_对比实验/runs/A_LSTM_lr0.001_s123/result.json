@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "LSTM",
+  "lr": 0.001,
+  "seed": 123,
+  "status": "completed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "best_val_RMSE": 0.008170895317516115,
+  "best_epoch": 30,
+  "epochs_run": 40,
+  "training_seconds": 48.74485568003729,
+  "parameters": 21313,
+  "device": "cuda",
+  "checkpoint_sha256": "2ff5ee54a52936f95ad919916a15f19cdecfbeb99a04fa7c4c381892fcc22b1d",
+  "test_set_evaluated": false
+}

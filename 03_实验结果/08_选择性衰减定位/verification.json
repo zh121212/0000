@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "new_checkpoints_verified": 7,
+  "optimizer_group_assignments_verified": 7,
+  "unchanged_backbone_and_parameter_count": true,
+  "parameters": 102017,
+  "prediction_files_recomputed": 10,
+  "metric_rows": 40,
+  "permutation_runs": 150,
+  "max_metric_recalculation_difference": 1.036060126580196e-12,
+  "original_protected_files_unchanged": true,
+  "test_evaluated": false
+}

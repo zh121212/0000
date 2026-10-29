@@ -1,0 +1,55 @@
+{
+  "model": "TimeXer_LastAnchor_Control3Zero",
+  "lr": 0.001,
+  "candidates": [
+    {
+      "task": "A",
+      "model": "TimeXer_LastAnchor_Control3Zero",
+      "seed": 42,
+      "lr": 0.0001,
+      "status": "completed",
+      "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+      "best_val_RMSE": 0.007090778251804434,
+      "best_epoch": 4,
+      "epochs_run": 14,
+      "training_seconds": 63.01500000001397,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "8ce380562b9a91eea9f56ce204b3f977d8a6bfd350dfe5520acb678c02a6f65e",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LastAnchor_Control3Zero",
+      "seed": 42,
+      "lr": 0.0003,
+      "status": "completed",
+      "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+      "best_val_RMSE": 0.007081271189934245,
+      "best_epoch": 2,
+      "epochs_run": 12,
+      "training_seconds": 40.29599999997299,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "bc5c8efbdf654341a911ed53120b207947d261fdde13578ec68ced5a145824a6",
+      "test_set_evaluated": false
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LastAnchor_Control3Zero",
+      "seed": 42,
+      "lr": 0.001,
+      "status": "completed",
+      "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+      "best_val_RMSE": 0.007005645416171905,
+      "best_epoch": 21,
+      "epochs_run": 31,
+      "training_seconds": 103.375,
+      "parameters": 102017,
+      "device": "cuda",
+      "checkpoint_sha256": "efbab37e61371a7d823c4a087f6456d4571476ccf1119cfd6dcc8560140d9ae8",
+      "test_set_evaluated": false
+    }
+  ],
+  "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c"
+}

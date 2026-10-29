@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor_PathDecay",
+  "seed": 2025,
+  "lr": 0.0003,
+  "status": "completed",
+  "fingerprint": "af6eb895992465dbf3f1aee116ee4dcd9963fee1f5cc257e7d47bcf5bfd48f08",
+  "best_val_RMSE": 0.006964709350498194,
+  "best_epoch": 20,
+  "epochs_run": 30,
+  "training_seconds": 98.39099999994505,
+  "parameters": 102017,
+  "device": "cuda",
+  "checkpoint_sha256": "e7bce048da6a31bc0baed788967376b5651cc0fbf2a87c8efe6d17832e7de485",
+  "test_set_evaluated": false
+}

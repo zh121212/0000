@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-27T19:17:33+08:00",
+  "job": {
+    "task": "A",
+    "model": "TimeFilter",
+    "lr": 0.0003,
+    "seed": 3407
+  },
+  "epoch": 17,
+  "best_epoch": 7,
+  "best_val_RMSE": 0.0074130484289925734,
+  "elapsed_seconds": 253.31703584408388
+}

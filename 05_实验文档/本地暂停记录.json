@@ -1,0 +1,9 @@
+{
+  "paused_at": "2026-10-27T15:49:09+08:00",
+  "local_project": "E:\\小论文\\HPA\\single_step_benchmark_v2",
+  "completed_local_training_jobs": 11,
+  "local_results_preserved": true,
+  "copied_weights_to_cloud_package": false,
+  "cloud_training_started": false,
+  "note": "已有训练仅部分学习率候选完成，未形成七模型五种子测试表。最佳权重不等于完整断点续训状态，云端按同一协议从头训练。"
+}

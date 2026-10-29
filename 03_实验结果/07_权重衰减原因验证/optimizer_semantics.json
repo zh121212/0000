@@ -1,0 +1,6 @@
+{
+  "class": "torch.optim.Adam",
+  "signature": "(params: collections.abc.Iterable[torch.Tensor] | collections.abc.Iterable[dict[str, typing.Any]] | collections.abc.Iterable[tuple[str, torch.Tensor]], lr: float | torch.Tensor = 0.001, betas: tuple[float | torch.Tensor, float | torch.Tensor] = (0.9, 0.999), eps: float = 1e-08, weight_decay: float = 0, amsgrad: bool = False, *, foreach: bool | None = None, maximize: bool = False, capturable: bool = False, differentiable: bool = False, fused: bool | None = None, decoupled_weight_decay: bool = False) -> None",
+  "decoupled_weight_decay": false,
+  "note": "when false, effective gradient contains weight_decay * parameter, not AdamW"
+}

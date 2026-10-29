@@ -1,0 +1,8 @@
+{
+  "model": "TimeXer",
+  "completed_at": "2026-10-29T15:28:31+08:00",
+  "fingerprint": "ebad40f9ccfd6989fd0f383b0940da00a0c7b55468bc6eb7649c87b9a3debfad",
+  "lr": 0.0003,
+  "jobs": 7,
+  "test_evaluated": false
+}

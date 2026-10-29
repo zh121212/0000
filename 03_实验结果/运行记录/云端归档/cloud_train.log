@@ -1,0 +1,144 @@
+{"phase": "waiting_for_dependencies", "updated_at": "2026-10-27T17:04:49.090187+08:00", "driver_pid": 2516, "dependency_pid": 2385}
+{"phase": "dependencies_ready", "updated_at": "2026-10-27T17:07:09.121702+08:00", "driver_pid": 2516, "packages": {"numpy": "2.2.6", "pandas": "2.3.3", "matplotlib": "3.10.9", "einops": "0.8.1", "reformer-pytorch": "1.4.4"}}
+{"phase": "auditing_data", "updated_at": "2026-10-27T17:07:09.122058+08:00", "driver_pid": 2516}
+{"status": "STRUCTURE_CHECKED_ONLY", "files": 2, "time_aligned": true, "output": "/root/autodl-tmp/TimeXer_TaskA_Cloud_20261027/03_实验结果/03_数据检查/data_audit.json"}
+{"phase": "preparing_data", "updated_at": "2026-10-27T17:07:12.776656+08:00", "driver_pid": 2516}
+{
+  "protocol": "task_A_cloud_five_seeds_v1",
+  "raw_sha256": {
+    "淇河倒虹吸出口节制闸（镇平）.csv": "88366309ead2b8c6b362ad93d5ad0b1e8c8745dee0c413cbd705a2bf691009cd",
+    "十二里河渡槽进口节制闸.csv": "14c59a1dc897971b494b71c88ad0bb8beeca2ca294f556f705ba17bcc0e6d477"
+  },
+  "protocol_sha256": "6d64e18cdc74e8e15158a8d2367dc66a926ca0b67aa197e9b86225f5ee069334",
+  "prepare_sha256": "b5de590fc1adafbb8e6778329ae8a5fd31eebdc0b1f5eeb79fed0b072ac26ac9",
+  "rows": 16081,
+  "train_end": 11256,
+  "validation_end": 12864,
+  "tasks": {
+    "A": {
+      "upstream": "qihe",
+      "target_station": "shierlihe",
+      "features": [
+        "qihe:闸前水位",
+        "qihe:闸后水位",
+        "qihe:闸前闸后水位差",
+        "qihe:瞬时流量",
+        "qihe:孔1实际开度",
+        "qihe:孔2实际开度",
+        "qihe:孔3实际开度",
+        "qihe:孔4实际开度",
+        "time_of_day",
+        "weekday",
+        "week_of_month",
+        "shierlihe:闸后水位",
+        "shierlihe:闸前闸后水位差",
+        "shierlihe:瞬时流量",
+        "shierlihe:孔1实际开度",
+        "shierlihe:孔2实际开度",
+        "shierlihe:闸前水位"
+      ],
+      "up_channels": 11,
+      "local_channels": 6,
+      "upstream_flow_index": 3,
+      "physical_scaler_features": [
+        "qihe:闸前水位",
+        "qihe:闸后水位",
+        "qihe:闸前闸后水位差",
+        "qihe:瞬时流量",
+        "qihe:孔1实际开度",
+        "qihe:孔2实际开度",
+        "qihe:孔3实际开度",
+        "qihe:孔4实际开度",
+        "shierlihe:闸后水位",
+        "shierlihe:闸前闸后水位差",
+        "shierlihe:瞬时流量",
+        "shierlihe:孔1实际开度",
+        "shierlihe:孔2实际开度",
+        "shierlihe:闸前水位"
+      ],
+      "total_channels": 17,
+      "target_channel": 16,
+      "time_feature_indices": [
+        8,
+        9,
+        10
+      ],
+      "splits": {
+        "train": {
+          "samples": 11244,
+          "start": "2025-01-01 06:00:00",
+          "end": "2025-08-23 11:30:00"
+        },
+        "val": {
+          "samples": 1608,
+          "start": "2025-08-23 12:00:00",
+          "end": "2025-09-25 23:30:00"
+        },
+        "test": {
+          "samples": 3217,
+          "start": "2025-09-26 00:00:00",
+          "end": "2025-12-02 00:00:00"
+        }
+      },
+      "scaler_fit_indices": [
+        0,
+        11255
+      ],
+      "input_offsets": [
+        -12,
+        -1
+      ],
+      "label_offset": 0
+    }
+  },
+  "output_sha256": {
+    "A/scaler.npz": "6361d7ede03731f9a3933ca0b0c9fa8943ba30ca7e1c3569a71a586ff2ba5089",
+    "A/test.npz": "ac652bfe0f257fd1d0c3944578e0b5ee768f8c7a649898465537f5ac9cf5e694",
+    "A/train.npz": "df0fd59b56146a98639320800e71bf56c10c680f8bfc34e207ee8297a55dca29",
+    "A/val.npz": "61cc9a05d4d36a51a6dfba4b14b5d3dcf7e9b78cdbe44f8fd7eb434170032628"
+  }
+}
+{"phase": "regression_checks", "updated_at": "2026-10-27T17:07:16.158028+08:00", "driver_pid": 2516}
+test_calendar_changes_target_and_backward_is_finite (test_calendar_inputs.CalendarInputsTest.test_calendar_changes_target_and_backward_is_finite) ... ok
+test_embedding_inputs_and_target_scale (test_calendar_inputs.CalendarInputsTest.test_embedding_inputs_and_target_scale) ... ok
+test_save_reload_and_single_sample (test_calendar_inputs.CalendarInputsTest.test_save_reload_and_single_sample) ... ok
+test_figures_use_all_aligned_points_and_fixed_seed (test_metrics_and_figures.MetricsAndFiguresTest.test_figures_use_all_aligned_points_and_fixed_seed) ... ok
+test_metric_values_and_zero_denominator (test_metrics_and_figures.MetricsAndFiguresTest.test_metric_values_and_zero_denominator) ... ok
+test_report_preserves_percentage_units_and_seed_spread (test_metrics_and_figures.MetricsAndFiguresTest.test_report_preserves_percentage_units_and_seed_spread) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.916s
+
+OK
+{"phase": "full_training_and_figures", "updated_at": "2026-10-27T17:07:23.424488+08:00", "driver_pid": 2516}
+SMOKE PASS A/HPA
+SMOKE PASS A/LSTM
+SMOKE PASS A/MLP
+SMOKE PASS A/Informer
+SMOKE PASS A/TimeXer
+SMOKE PASS A/iTransformer
+SMOKE PASS A/TimeFilter
+TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.0001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.0003, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.001, 'seed': 42}
+TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.001, 'seed': 123}
+TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.001, 'seed': 2024}
+{"phase": "completed", "updated_at": "2026-10-27T19:18:38.450561+08:00", "driver_pid": 2516, "note": "49 training jobs, 35 final seed results, metrics and figures finished"}

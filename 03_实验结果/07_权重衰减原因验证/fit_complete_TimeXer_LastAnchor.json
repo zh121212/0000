@@ -1,0 +1,8 @@
+{
+  "model": "TimeXer_LastAnchor",
+  "completed_at": "2026-10-29T15:30:41+08:00",
+  "fingerprint": "ebad40f9ccfd6989fd0f383b0940da00a0c7b55468bc6eb7649c87b9a3debfad",
+  "lr": 0.001,
+  "jobs": 7,
+  "test_evaluated": false
+}

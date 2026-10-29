@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-29T17:03:21+08:00",
+  "job": {
+    "task": "A",
+    "model": "TimeXer_LastAnchor_RecentRaw",
+    "seed": 42,
+    "lr": 0.0001
+  },
+  "epoch": 42,
+  "best_epoch": 32,
+  "best_val_RMSE": 0.0070652196780977726,
+  "elapsed_seconds": 214.9529999999795
+}

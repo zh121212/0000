@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-10-27T19:56:38+08:00",
+  "local_results": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果",
+  "completed_training_jobs": 49,
+  "model_checkpoints": 49,
+  "formal_seed_results": 35,
+  "prediction_csv_files": 35,
+  "figures": {
+    "PNG": 36,
+    "PDF": 36,
+    "SVG": 36
+  },
+  "checkpoint_hashes_verified": true,
+  "matching_cloud_data_packs_verified": true,
+  "total_result_files": 486,
+  "total_result_bytes": 100567210
+}

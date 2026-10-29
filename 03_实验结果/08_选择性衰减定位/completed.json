@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-29T15:44:31+08:00",
+  "signature_parts": {
+    "baseline": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "previous_script": "d9610e9e1bb632a3a2aaae86a256d3821138dcc1d684a7d4dc4e44257437a23e",
+    "comparison_script": "6052aa53c02bcd4059d86c7bf08aa923a5f1632c69e7abb4552a65b936f1cd92",
+    "script": "56ee4e17c025d4f071d428c7e46d4724a12d4c48aaecbcfe077483c32d23ec60",
+    "stage_one_receipt": "34758cb048ad1016bb4fdd2efcce58d4dfdf9f3bda5ebad42db9707a6ddd8543",
+    "exempt_groups": [
+      "cross_query_key",
+      "cross_value_output",
+      "external_embedding"
+    ],
+    "remaining_decay": 0.0001
+  },
+  "jobs": 7,
+  "parameters": 102017,
+  "test_evaluated": false,
+  "architecture_changed": false,
+  "selected_lr": 0.0003
+}

@@ -1,0 +1,12 @@
+TRAIN pid=43516 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 42, 'lr': 0.0001}
+TRAIN pid=41784 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 42, 'lr': 0.0003}
+TRAIN pid=30940 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 42, 'lr': 0.001}
+TRAIN pid=44652 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 123, 'lr': 0.0003}
+TRAIN pid=12872 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 2024, 'lr': 0.0003}
+TRAIN pid=17244 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 2025, 'lr': 0.0003}
+TRAIN pid=33420 {'task': 'A', 'model': 'TimeXer_LastAnchor_PathDecay', 'seed': 3407, 'lr': 0.0003}
+EVAL SELECTIVE seed=42
+EVAL SELECTIVE seed=123
+EVAL SELECTIVE seed=2024
+EVAL SELECTIVE seed=2025
+EVAL SELECTIVE seed=3407

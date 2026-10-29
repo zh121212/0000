@@ -1,0 +1,8 @@
+{
+  "task": "A",
+  "model": "MLP",
+  "lr": 0.0001,
+  "seed": 123,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "started_at": "2026-10-27T18:40:54+08:00"
+}

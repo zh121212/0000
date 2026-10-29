@@ -1,0 +1,19 @@
+{
+  "correlations": [
+    {
+      "split": "train",
+      "Pearson_history_rms_future_abs_delta": 0.229096311014919,
+      "Spearman": 0.21810212046525762
+    },
+    {
+      "split": "val",
+      "Pearson_history_rms_future_abs_delta": 0.4186281902310347,
+      "Spearman": 0.21837698864291605
+    }
+  ],
+  "history_thresholds_m": [
+    0.001684055270981929,
+    0.0022690760004564275,
+    0.003085004711842081
+  ]
+}

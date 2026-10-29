@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "new_checkpoints_verified": 21,
+  "predictions_recomputed": 30,
+  "metric_rows": 120,
+  "same_original_backbone": true,
+  "timing_repeats_per_model": 10,
+  "interleaved_timing": true,
+  "max_metric_recalculation_difference": 1.5989432000651504e-12,
+  "old_files_unchanged": true,
+  "test_evaluated": false
+}

@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-27T15:49:09+08:00",
+  "root": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud",
+  "selected_source": "E:\\小论文\\数据集2\\淇河镇平-十二里河-白河（计算水位差）",
+  "tsl_url": "https://github.com/thuml/Time-Series-Library",
+  "tsl_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+  "files": [
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\models\\TimeFilter.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/models/TimeFilter.py",
+      "sha256": "6ebd60fc670dc33fad4db2144e5bfbcb905117d2a0e2d98fd143d43f999f115a",
+      "bytes": 6946
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\layers\\TimeFilter_layers.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/layers/TimeFilter_layers.py",
+      "sha256": "ed0e14abd8eda187bb0756a3f5f50dc47d3a10dd0310a4a5effe3b2fd0e4970a",
+      "bytes": 10328
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\layers\\StandardNorm.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/layers/StandardNorm.py",
+      "sha256": "42c0d7f8019d899e1dac23ffc81fd2e08763f7d824142a3e29842fc3847c5e15",
+      "bytes": 2252
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\layers\\Embed.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/layers/Embed.py",
+      "sha256": "0a29593e3796b5a3798bd3d37c1150fc2256c559abdee36e83eecd1a05787247",
+      "bytes": 7202
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\models\\iTransformer.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/models/iTransformer.py",
+      "sha256": "6de6b88dc0bfcaa36599c12626d611205acca7aa4d572f8da5a769ef7afee232",
+      "bytes": 5867
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\layers\\SelfAttention_Family.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/layers/SelfAttention_Family.py",
+      "sha256": "0fea961b640b1a7db471df2e389abfb843ce8e5767aca5af141ee22dd43be66f",
+      "bytes": 12303
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\utils\\masking.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/utils/masking.py",
+      "sha256": "c22de70ad076f4eeecc857aba984741da05da54375333399ff2742b041544986",
+      "bytes": 858
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\layers\\Transformer_EncDec.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/layers/Transformer_EncDec.py",
+      "sha256": "031b26a6ed774442bfb4cf316d4a605f7642cd652a4c2b82f5e3d1fcdc47b098",
+      "bytes": 5064
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\models\\TimeXer.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/models/TimeXer.py",
+      "sha256": "498165f2532a8434c39060471e5a150af81a16fa9124dc6163d33e885fa2aeae",
+      "bytes": 9243
+    },
+    {
+      "kind": "tsl_source",
+      "source": "E:\\小论文\\Time-Series-Library\\models\\Informer.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/models/Informer.py",
+      "sha256": "907b1244cb836838c6f8722c4c9ea5033871b8c50ff54d1b882db5354a78937d",
+      "bytes": 6542
+    },
+    {
+      "kind": "tsl_metadata",
+      "source": "E:\\小论文\\Time-Series-Library\\LICENSE",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/LICENSE",
+      "sha256": "3892254202fc16573828d34ec901ab765d8eb73a03d174b131a49771adcd8d64",
+      "bytes": 1105
+    },
+    {
+      "kind": "tsl_metadata",
+      "source": "E:\\小论文\\Time-Series-Library\\README.md",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/README.md",
+      "sha256": "f79bd90ec18fe84a51aa8f4f60356466632e06c74597f72aae6c48a7e22b513f",
+      "bytes": 30933
+    },
+    {
+      "kind": "tsl_metadata",
+      "source": "E:\\小论文\\Time-Series-Library\\requirements.txt",
+      "snapshot": "02_训练流程/03_模型设计/vendor/tsl/requirements.txt",
+      "sha256": "3eda908ac123d0c47bf4dbb2cae868d20df6a05cc5a5c606b516bf541a26e55d",
+      "bytes": 536
+    },
+    {
+      "kind": "original_local_hpa_reference",
+      "source": "E:\\小论文\\HPA\\ShortTermPredictionModel\\item_lstm_Model.py",
+      "snapshot": "02_训练流程/03_模型设计/vendor/hpa/item_lstm_Model.py",
+      "sha256": "1217d6b35cf01f696cc83732a56bdcc4548acd34c37abebcd1d7ad558fb3aa15",
+      "bytes": 8150
+    },
+    {
+      "kind": "selected_dataset_snapshot",
+      "source": "E:\\小论文\\数据集2\\淇河镇平-十二里河-白河（计算水位差）\\十二里河渡槽进口节制闸.csv",
+      "snapshot": "01_数据集/01_源文件快照/十二里河渡槽进口节制闸.csv",
+      "sha256": "14c59a1dc897971b494b71c88ad0bb8beeca2ca294f556f705ba17bcc0e6d477",
+      "bytes": 1705702
+    },
+    {
+      "kind": "selected_dataset_snapshot",
+      "source": "E:\\小论文\\数据集2\\淇河镇平-十二里河-白河（计算水位差）\\淇河倒虹吸出口节制闸（镇平）.csv",
+      "snapshot": "01_数据集/01_源文件快照/淇河倒虹吸出口节制闸（镇平）.csv",
+      "sha256": "88366309ead2b8c6b362ad93d5ad0b1e8c8745dee0c413cbd705a2bf691009cd",
+      "bytes": 1946129
+    }
+  ],
+  "note": "只带任务A的两个源CSV与实际依赖；不带本地权重、结果、缓存、Node模块和旧调度器。初始模型适配器与V2逐字节相同；当前适配器已修复三个模型的日历信息丢失，vendor源码及以上来源指纹保持不变。"
+}

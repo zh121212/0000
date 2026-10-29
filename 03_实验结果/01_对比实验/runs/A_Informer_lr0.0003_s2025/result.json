@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "Informer",
+  "lr": 0.0003,
+  "seed": 2025,
+  "status": "completed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "best_val_RMSE": 0.011919429054967528,
+  "best_epoch": 34,
+  "epochs_run": 44,
+  "training_seconds": 407.48714555287734,
+  "parameters": 138065,
+  "device": "cuda",
+  "checkpoint_sha256": "922b34795908df93c2da125220b0e91c3b8e03067b627e2be06b2d3cd4b27acf",
+  "test_set_evaluated": false
+}

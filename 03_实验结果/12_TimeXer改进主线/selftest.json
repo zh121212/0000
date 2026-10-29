@@ -1,0 +1,434 @@
+{
+  "baseline_reuse": [
+    {
+      "model": "HPA",
+      "seed": 42,
+      "val_RMSE": 0.008023734986630403,
+      "abs_gap_m": 9.224069598412488e-11
+    },
+    {
+      "model": "HPA",
+      "seed": 123,
+      "val_RMSE": 0.008073940967680064,
+      "abs_gap_m": 6.075570255226204e-11
+    },
+    {
+      "model": "HPA",
+      "seed": 2024,
+      "val_RMSE": 0.008286131605275537,
+      "abs_gap_m": 5.415286621901494e-11
+    },
+    {
+      "model": "HPA",
+      "seed": 2025,
+      "val_RMSE": 0.008338369470969352,
+      "abs_gap_m": 2.2831819421198496e-10
+    },
+    {
+      "model": "HPA",
+      "seed": 3407,
+      "val_RMSE": 0.008476793559155833,
+      "abs_gap_m": 1.4794115238414562e-10
+    },
+    {
+      "model": "LSTM",
+      "seed": 42,
+      "val_RMSE": 0.007703900475872973,
+      "abs_gap_m": 2.7962222554772653e-10
+    },
+    {
+      "model": "LSTM",
+      "seed": 123,
+      "val_RMSE": 0.00817089556185888,
+      "abs_gap_m": 2.4434276477136585e-10
+    },
+    {
+      "model": "LSTM",
+      "seed": 2024,
+      "val_RMSE": 0.007864958229203479,
+      "abs_gap_m": 1.4392366985693794e-10
+    },
+    {
+      "model": "LSTM",
+      "seed": 2025,
+      "val_RMSE": 0.0077408923973273525,
+      "abs_gap_m": 4.0925930786667175e-10
+    },
+    {
+      "model": "LSTM",
+      "seed": 3407,
+      "val_RMSE": 0.007668996098755578,
+      "abs_gap_m": 3.1864529417835463e-10
+    },
+    {
+      "model": "MLP",
+      "seed": 42,
+      "val_RMSE": 0.009087597899770995,
+      "abs_gap_m": 2.2100984237161114e-10
+    },
+    {
+      "model": "MLP",
+      "seed": 123,
+      "val_RMSE": 0.008530468937062488,
+      "abs_gap_m": 7.723818459814957e-11
+    },
+    {
+      "model": "MLP",
+      "seed": 2024,
+      "val_RMSE": 0.009219806963449432,
+      "abs_gap_m": 1.9402694728665182e-11
+    },
+    {
+      "model": "MLP",
+      "seed": 2025,
+      "val_RMSE": 0.008657529765260234,
+      "abs_gap_m": 9.012002810671049e-10
+    },
+    {
+      "model": "MLP",
+      "seed": 3407,
+      "val_RMSE": 0.008764418697099381,
+      "abs_gap_m": 5.382451099406049e-10
+    },
+    {
+      "model": "Informer",
+      "seed": 42,
+      "val_RMSE": 0.011005375205189306,
+      "abs_gap_m": 5.222313761987785e-10
+    },
+    {
+      "model": "Informer",
+      "seed": 123,
+      "val_RMSE": 0.011360639574652462,
+      "abs_gap_m": 7.233525289168652e-10
+    },
+    {
+      "model": "Informer",
+      "seed": 2024,
+      "val_RMSE": 0.011818691203279061,
+      "abs_gap_m": 2.9882194461927636e-10
+    },
+    {
+      "model": "Informer",
+      "seed": 2025,
+      "val_RMSE": 0.011919430049900002,
+      "abs_gap_m": 9.9493247494864e-10
+    },
+    {
+      "model": "Informer",
+      "seed": 3407,
+      "val_RMSE": 0.01208939097591289,
+      "abs_gap_m": 1.3151882100742585e-09
+    },
+    {
+      "model": "TimeXer",
+      "seed": 42,
+      "val_RMSE": 0.007611277763335166,
+      "abs_gap_m": 1.4020260646896432e-12
+    },
+    {
+      "model": "TimeXer",
+      "seed": 123,
+      "val_RMSE": 0.007727324958156339,
+      "abs_gap_m": 0.0
+    },
+    {
+      "model": "TimeXer",
+      "seed": 2024,
+      "val_RMSE": 0.007656198272681637,
+      "abs_gap_m": 2.2874057682698012e-11
+    },
+    {
+      "model": "TimeXer",
+      "seed": 2025,
+      "val_RMSE": 0.007521834464224073,
+      "abs_gap_m": 6.13279219074947e-12
+    },
+    {
+      "model": "TimeXer",
+      "seed": 3407,
+      "val_RMSE": 0.007605491821438163,
+      "abs_gap_m": 1.5771917799556334e-10
+    },
+    {
+      "model": "iTransformer",
+      "seed": 42,
+      "val_RMSE": 0.007061088790465543,
+      "abs_gap_m": 0.0
+    },
+    {
+      "model": "iTransformer",
+      "seed": 123,
+      "val_RMSE": 0.007170871795249645,
+      "abs_gap_m": 0.0
+    },
+    {
+      "model": "iTransformer",
+      "seed": 2024,
+      "val_RMSE": 0.007024071720967497,
+      "abs_gap_m": 0.0
+    },
+    {
+      "model": "iTransformer",
+      "seed": 2025,
+      "val_RMSE": 0.00719080497372782,
+      "abs_gap_m": 1.0286025503569718e-12
+    },
+    {
+      "model": "iTransformer",
+      "seed": 3407,
+      "val_RMSE": 0.007116387596630862,
+      "abs_gap_m": 6.298997868442457e-11
+    },
+    {
+      "model": "TimeFilter",
+      "seed": 42,
+      "val_RMSE": 0.0074274658365284605,
+      "abs_gap_m": 1.9419025328731854e-10
+    },
+    {
+      "model": "TimeFilter",
+      "seed": 123,
+      "val_RMSE": 0.007445914283578226,
+      "abs_gap_m": 1.7795735371417543e-11
+    },
+    {
+      "model": "TimeFilter",
+      "seed": 2024,
+      "val_RMSE": 0.0074857575661143455,
+      "abs_gap_m": 8.162961105673272e-11
+    },
+    {
+      "model": "TimeFilter",
+      "seed": 2025,
+      "val_RMSE": 0.007437499991546186,
+      "abs_gap_m": 2.4699134491129593e-10
+    },
+    {
+      "model": "TimeFilter",
+      "seed": 3407,
+      "val_RMSE": 0.007413048498728273,
+      "abs_gap_m": 6.973569985357919e-11
+    }
+  ],
+  "reproduction": [
+    {
+      "variant": "TimeXer_PD(组件全关)",
+      "source": "v1 TimeXer",
+      "seed": 42,
+      "max_abs_diff_m": 0.0
+    },
+    {
+      "variant": "TimeXer_PD(组件全关)",
+      "source": "v1 TimeXer",
+      "seed": 123,
+      "max_abs_diff_m": 0.0
+    },
+    {
+      "variant": "TimeXer_PD(组件全关)",
+      "source": "v1 TimeXer",
+      "seed": 2024,
+      "max_abs_diff_m": 0.0
+    },
+    {
+      "variant": "TimeXer_PD(组件全关)",
+      "source": "v1 TimeXer",
+      "seed": 2025,
+      "max_abs_diff_m": 0.0
+    },
+    {
+      "variant": "TimeXer_PD(组件全关)",
+      "source": "v1 TimeXer",
+      "seed": 3407,
+      "max_abs_diff_m": 0.0
+    },
+    {
+      "variant": "TimeXer_LA",
+      "source": "06轮 LastAnchor（wd=1e-4）",
+      "seed": 42,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA",
+      "source": "06轮 LastAnchor（wd=1e-4）",
+      "seed": 123,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA",
+      "source": "06轮 LastAnchor（wd=1e-4）",
+      "seed": 2024,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA",
+      "source": "06轮 LastAnchor（wd=1e-4）",
+      "seed": 2025,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA",
+      "source": "06轮 LastAnchor（wd=1e-4）",
+      "seed": 3407,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA_PD",
+      "source": "08轮 LastAnchor_PathDecay",
+      "seed": 42,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA_PD",
+      "source": "08轮 LastAnchor_PathDecay",
+      "seed": 123,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA_PD",
+      "source": "08轮 LastAnchor_PathDecay",
+      "seed": 2024,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA_PD",
+      "source": "08轮 LastAnchor_PathDecay",
+      "seed": 2025,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA_PD",
+      "source": "08轮 LastAnchor_PathDecay",
+      "seed": 3407,
+      "max_abs_diff_m": 2.842170943040401e-14
+    },
+    {
+      "variant": "TimeXer_LA_C3Raw",
+      "source": "11轮 LastAnchor_Control3Raw（wd=0，仅核对结构）",
+      "seed": 42,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_C3Raw",
+      "source": "11轮 LastAnchor_Control3Raw（wd=0，仅核对结构）",
+      "seed": 123,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_C3Raw",
+      "source": "11轮 LastAnchor_Control3Raw（wd=0，仅核对结构）",
+      "seed": 2024,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_C3Raw",
+      "source": "11轮 LastAnchor_Control3Raw（wd=0，仅核对结构）",
+      "seed": 2025,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_C3Raw",
+      "source": "11轮 LastAnchor_Control3Raw（wd=0，仅核对结构）",
+      "seed": 3407,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_PD_C3Zero",
+      "source": "11轮 LastAnchor_Control3Zero（wd=0，仅核对结构）",
+      "seed": 42,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_PD_C3Zero",
+      "source": "11轮 LastAnchor_Control3Zero（wd=0，仅核对结构）",
+      "seed": 123,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_PD_C3Zero",
+      "source": "11轮 LastAnchor_Control3Zero（wd=0，仅核对结构）",
+      "seed": 2024,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_PD_C3Zero",
+      "source": "11轮 LastAnchor_Control3Zero（wd=0，仅核对结构）",
+      "seed": 2025,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    },
+    {
+      "variant": "TimeXer_LA_PD_C3Zero",
+      "source": "11轮 LastAnchor_Control3Zero（wd=0，仅核对结构）",
+      "seed": 3407,
+      "max_abs_diff_m": 2.5108988666033838e-08
+    }
+  ],
+  "mini_training": [
+    {
+      "model": "TimeXer_PD",
+      "param_group_decays": [
+        0.0,
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    },
+    {
+      "model": "TimeXer_LA",
+      "param_group_decays": [
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    },
+    {
+      "model": "TimeXer_LA_PD",
+      "param_group_decays": [
+        0.0,
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    },
+    {
+      "model": "TimeXer_LA_PD_C3Raw",
+      "param_group_decays": [
+        0.0,
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    },
+    {
+      "model": "TimeXer_LA_PD_C3Zero",
+      "param_group_decays": [
+        0.0,
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    },
+    {
+      "model": "TimeXer_LA_PD_C3Norm",
+      "param_group_decays": [
+        0.0,
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    },
+    {
+      "model": "TimeXer_LA_C3Raw",
+      "param_group_decays": [
+        0.0001
+      ],
+      "prediction_changed": true,
+      "reload_equal": true
+    }
+  ],
+  "tolerance_m": 1e-06,
+  "status": "passed",
+  "checked_at": "2026-10-29T22:28:20+08:00",
+  "signature": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+  "test_evaluated": false
+}

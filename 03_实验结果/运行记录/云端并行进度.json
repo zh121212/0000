@@ -1,0 +1,61 @@
+{
+  "status": "running_parallel",
+  "updated_at": "2026-10-27T18:37:56+08:00",
+  "pid": 7294,
+  "original_queue_pid": 2848,
+  "original_queue_paused": true,
+  "max_parallel_jobs": 2,
+  "completed_jobs": 23,
+  "total_jobs": 49,
+  "active_jobs": [
+    {
+      "job": {
+        "task": "A",
+        "model": "HPA",
+        "lr": 0.001,
+        "seed": 2025
+      },
+      "pid": 7358,
+      "adopted": false,
+      "progress_file": "/root/autodl-tmp/TimeXer_TaskA_Cloud_20261027/03_实验结果/运行记录/parallel_workers/A_HPA_lr0.001_s2025/worker.json",
+      "progress": {
+        "updated_at": "2026-10-27T18:37:51+08:00",
+        "job": {
+          "task": "A",
+          "model": "HPA",
+          "lr": 0.001,
+          "seed": 2025
+        },
+        "epoch": 27,
+        "best_epoch": 23,
+        "best_val_RMSE": 0.008338369699287546,
+        "elapsed_seconds": 193.59858396998607
+      }
+    },
+    {
+      "job": {
+        "task": "A",
+        "model": "HPA",
+        "lr": 0.001,
+        "seed": 3407
+      },
+      "pid": 7471,
+      "adopted": false,
+      "progress_file": "/root/autodl-tmp/TimeXer_TaskA_Cloud_20261027/03_实验结果/运行记录/parallel_workers/A_HPA_lr0.001_s3407/worker.json",
+      "progress": {
+        "updated_at": "2026-10-27T18:37:51+08:00",
+        "job": {
+          "task": "A",
+          "model": "HPA",
+          "lr": 0.001,
+          "seed": 3407
+        },
+        "epoch": 14,
+        "best_epoch": 11,
+        "best_val_RMSE": 0.009778585579831781,
+        "elapsed_seconds": 103.5608194458764
+      }
+    }
+  ],
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

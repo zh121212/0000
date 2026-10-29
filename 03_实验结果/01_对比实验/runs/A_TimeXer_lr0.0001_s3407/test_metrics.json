@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer",
+  "lr": 0.0001,
+  "seed": 3407,
+  "MAE": 0.0023294652736189085,
+  "MAPE": 0.0016362532475760864,
+  "RMSE": 0.003914973742788604,
+  "skill_vs_persistence": -0.0616412475781023,
+  "n": 3217,
+  "best_epoch": 11,
+  "training_seconds": 160.55867478996515,
+  "parameters": 102017,
+  "inference_seconds": 0.25446579814888537,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

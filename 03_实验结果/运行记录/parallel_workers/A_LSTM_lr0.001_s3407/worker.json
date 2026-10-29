@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-27T18:42:06+08:00",
+  "job": {
+    "task": "A",
+    "model": "LSTM",
+    "lr": 0.001,
+    "seed": 3407
+  },
+  "epoch": 57,
+  "best_epoch": 47,
+  "best_val_RMSE": 0.0076689964174008725,
+  "elapsed_seconds": 77.88894000602886
+}

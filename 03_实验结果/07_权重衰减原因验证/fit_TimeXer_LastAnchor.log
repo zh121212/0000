@@ -1,0 +1,7 @@
+TRAIN pid=22092 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 42, 'lr': 0.0001}
+TRAIN pid=13460 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 42, 'lr': 0.0003}
+TRAIN pid=40360 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 42, 'lr': 0.001}
+TRAIN pid=24840 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 123, 'lr': 0.001}
+TRAIN pid=45512 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 2024, 'lr': 0.001}
+TRAIN pid=38196 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 2025, 'lr': 0.001}
+TRAIN pid=26884 {'task': 'A', 'model': 'TimeXer_LastAnchor', 'seed': 3407, 'lr': 0.001}

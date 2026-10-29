@@ -1,0 +1,26 @@
+{
+  "completed_at": "2026-10-27T22:35:44+08:00",
+  "status": "completed",
+  "signatures": {
+    "baseline": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "experiment_script_sha256": "d9610e9e1bb632a3a2aaae86a256d3821138dcc1d684a7d4dc4e44257437a23e"
+  },
+  "environment": {
+    "python": "D:\\anaconda3\\envs\\rl_case1\\python.exe",
+    "torch": "2.12.0.dev20260408+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "cuda_build": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "platform": "win32"
+  },
+  "training_jobs": 14,
+  "formal_seed_results": 10,
+  "baseline_fingerprint_unchanged": true,
+  "selected_learning_rates": {
+    "TimeXer": 0.0001,
+    "TimeXer_LastAnchor": 0.001
+  },
+  "test_used_for_selection": false,
+  "test_interpretation": "exploratory; previously inspected test"
+}

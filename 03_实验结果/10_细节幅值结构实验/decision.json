@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "predeclared_criteria": {
+    "overall_RMSE_better_than_baseline": true,
+    "overall_MAE_better_than_baseline": true,
+    "stable_RMSE_better_than_baseline": true,
+    "fast_RMSE_not_worse_than_baseline": true,
+    "overall_RMSE_better_than_norm_control": true,
+    "overall_RMSE_better_than_zero_control": true,
+    "at_least_4_of_5_paired_RMSE_wins": true
+  },
+  "retain_raw_as_balanced_module": true,
+  "paired_wins_vs_baseline": 5,
+  "test_evaluated": false,
+  "novelty_verified_as_global_first": false,
+  "parameter_count_all_conditions": 102017,
+  "note": "negative-control and amplitude-ablation results must be reported; novelty and causal mechanism are separate from raw metric gains"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-29T17:23:43+08:00",
+  "signature_parts": {
+    "baseline": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "previous_code": "d9610e9e1bb632a3a2aaae86a256d3821138dcc1d684a7d4dc4e44257437a23e",
+    "prior_code": "6052aa53c02bcd4059d86c7bf08aa923a5f1632c69e7abb4552a65b936f1cd92",
+    "script": "af0f5dfc7d8c5ab41ff479bc251bbd6a022e219344a6e673d195fe7be5764192",
+    "weight_decay": 0.0,
+    "patch_len": 3,
+    "source_channels": "13 external physical channels; target excluded",
+    "modes": {
+      "TimeXer_LastAnchor_RecentRaw": "raw",
+      "TimeXer_LastAnchor_RecentNorm": "norm",
+      "TimeXer_LastAnchor_RecentZero": "zero"
+    }
+  },
+  "jobs": 21,
+  "formal_seed_results": 15,
+  "parameters": 102017,
+  "test_evaluated": false,
+  "original_files_unchanged": true,
+  "selected_learning_rates": {
+    "TimeXer_LastAnchor_RecentRaw": 0.001,
+    "TimeXer_LastAnchor_RecentNorm": 0.001,
+    "TimeXer_LastAnchor_RecentZero": 0.0003
+  }
+}

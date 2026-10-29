@@ -1,0 +1,34 @@
+{
+  "cloud_deployment.json": {
+    "phase": "full_training_and_figures",
+    "updated_at": "2026-10-27T17:07:23.424488+08:00",
+    "driver_pid": 2516
+  },
+  "03_实验结果/运行记录/status.json": {
+    "status": "running",
+    "pid": 2848,
+    "updated_at": "2026-10-27T17:07:30+08:00",
+    "job": {
+      "task": "A",
+      "model": "HPA",
+      "lr": 0.0001,
+      "seed": 42
+    },
+    "completed_now": 0,
+    "total_jobs": 49
+  },
+  "03_实验结果/运行记录/worker.json": {
+    "updated_at": "2026-10-27T17:09:41+08:00",
+    "job": {
+      "task": "A",
+      "model": "HPA",
+      "lr": 0.0001,
+      "seed": 42
+    },
+    "epoch": 18,
+    "best_epoch": 17,
+    "best_val_RMSE": 0.014484239635143009,
+    "elapsed_seconds": 127.28936261706986
+  },
+  "completed_training_jobs": 0
+}

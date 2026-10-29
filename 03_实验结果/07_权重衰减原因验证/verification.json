@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "original_protected_files": 460,
+  "original_files_unchanged": true,
+  "new_checkpoints_verified": 14,
+  "selected_checkpoint_conditions": 20,
+  "prediction_files_recomputed": 40,
+  "metric_rows": 168,
+  "permutation_runs": 600,
+  "attention_rows": 40,
+  "gradient_probe_rows": 280,
+  "matched_lr_seed42_cases": 12,
+  "max_metric_recalculation_difference": 1.751487843648647e-12,
+  "test_evaluated": false
+}

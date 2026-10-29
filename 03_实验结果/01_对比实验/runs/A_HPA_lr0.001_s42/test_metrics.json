@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "HPA",
+  "lr": 0.001,
+  "seed": 42,
+  "MAE": 0.005732516594214364,
+  "MAPE": 0.004026327570204104,
+  "RMSE": 0.008411747589757818,
+  "skill_vs_persistence": -3.9010884597102695,
+  "n": 3217,
+  "best_epoch": 45,
+  "training_seconds": 387.91676059016027,
+  "parameters": 107929,
+  "inference_seconds": 0.24534035404212773,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

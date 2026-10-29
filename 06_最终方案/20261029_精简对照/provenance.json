@@ -1,0 +1,32 @@
+{
+  "experiment_signature": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+  "winner": "TimeXer_LastAnchor_Control3Raw",
+  "kind": "control3",
+  "source_weights": {
+    "42": {
+      "path": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\11_精简与线性对照\\training\\01_对比实验\\runs\\A_TimeXer_LastAnchor_Control3Raw_lr0.001_s42\\best.pt",
+      "sha256": "78cdea7c1e27e29c20e40674ca007b5974520a2806a8c6b85faedfb1a55f6f73"
+    },
+    "123": {
+      "path": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\11_精简与线性对照\\training\\01_对比实验\\runs\\A_TimeXer_LastAnchor_Control3Raw_lr0.001_s123\\best.pt",
+      "sha256": "50050c155a8f15eedbba9b84169c15264c6ca5af2f15fd49eb903d8fa6c61d18"
+    },
+    "2024": {
+      "path": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\11_精简与线性对照\\training\\01_对比实验\\runs\\A_TimeXer_LastAnchor_Control3Raw_lr0.001_s2024\\best.pt",
+      "sha256": "1f1601a9f16159d8eb295fdef291a853da7a916252f4712e0737293130bb7604"
+    },
+    "2025": {
+      "path": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\11_精简与线性对照\\training\\01_对比实验\\runs\\A_TimeXer_LastAnchor_Control3Raw_lr0.001_s2025\\best.pt",
+      "sha256": "f0f4523b57c480aa19eb1c46b475ac2b691ee5dc4579571479e79a8d34bee8b1"
+    },
+    "3407": {
+      "path": "E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\03_实验结果\\11_精简与线性对照\\training\\01_对比实验\\runs\\A_TimeXer_LastAnchor_Control3Raw_lr0.001_s3407\\best.pt",
+      "sha256": "f88075c8f1c88f6dc5223d48603d02eede67cecee45728ca1603998e3f6db11f"
+    }
+  },
+  "model_sha256": "39a8b2b1404aa220961de2e09eefcdf8b3384dccd6d7dba6b303652e8393fbc7",
+  "predict_sha256": "cb52ffbb4a29e0e6c1331cba21bdeaf80fea867c59cf201fa8e747cb8ea4e8ff",
+  "scaler_sha256": "6361d7ede03731f9a3933ca0b0c9fa8943ba30ca7e1c3569a71a586ff2ba5089",
+  "source_baseline_fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "test_evaluated": false
+}

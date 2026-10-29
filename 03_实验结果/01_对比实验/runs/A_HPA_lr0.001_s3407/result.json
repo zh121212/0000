@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "HPA",
+  "lr": 0.001,
+  "seed": 3407,
+  "status": "completed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "best_val_RMSE": 0.008476793707096985,
+  "best_epoch": 19,
+  "epochs_run": 29,
+  "training_seconds": 212.35657942597754,
+  "parameters": 107929,
+  "device": "cuda",
+  "checkpoint_sha256": "bea426401bc1f3ea45bd4579e2b75c4e1a127752f046f7c5f28c9b442f656f20",
+  "test_set_evaluated": false
+}

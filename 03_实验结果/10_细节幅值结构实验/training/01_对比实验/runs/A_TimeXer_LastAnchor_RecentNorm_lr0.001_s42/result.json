@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor_RecentNorm",
+  "seed": 42,
+  "lr": 0.001,
+  "status": "completed",
+  "fingerprint": "51d87943e2c30d76e3da10e30ffce8184c271265cb37d90066ecf49f888b3254",
+  "best_val_RMSE": 0.007060579245131951,
+  "best_epoch": 1,
+  "epochs_run": 11,
+  "training_seconds": 47.96900000004098,
+  "parameters": 102017,
+  "device": "cuda",
+  "checkpoint_sha256": "971ee939d1bbd4779be52578df11241cea67910ec0d2db1eced1febd14907dd5",
+  "test_set_evaluated": false
+}

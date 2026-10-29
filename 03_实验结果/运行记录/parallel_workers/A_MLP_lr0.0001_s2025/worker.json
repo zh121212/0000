@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-27T18:43:42+08:00",
+  "job": {
+    "task": "A",
+    "model": "MLP",
+    "lr": 0.0001,
+    "seed": 2025
+  },
+  "epoch": 83,
+  "best_epoch": 73,
+  "best_val_RMSE": 0.008657528864059953,
+  "elapsed_seconds": 85.83592408406548
+}

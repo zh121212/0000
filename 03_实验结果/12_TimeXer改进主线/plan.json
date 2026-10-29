@@ -1,0 +1,222 @@
+{
+  "created_at": "2026-10-29T22:31:37+08:00",
+  "signature_parts": {
+    "v1_fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "variants_source": "6bfb73e788a4aa4dfa8774ffcb4bf7c70c8c21c5c0effe736887f560b19779e4",
+    "training_adapter_sha256": "298b371c4161f40a7853a7adcff2b6887de5952177e04ad2f27ab66baf787b06",
+    "variants": {
+      "TimeXer_PD": {
+        "anchor": false,
+        "control": null,
+        "path_decay": true
+      },
+      "TimeXer_LA": {
+        "anchor": true,
+        "control": null,
+        "path_decay": false
+      },
+      "TimeXer_LA_PD": {
+        "anchor": true,
+        "control": null,
+        "path_decay": true
+      },
+      "TimeXer_LA_PD_C3Raw": {
+        "anchor": true,
+        "control": "raw",
+        "path_decay": true
+      },
+      "TimeXer_LA_PD_C3Zero": {
+        "anchor": true,
+        "control": "zero",
+        "path_decay": true
+      },
+      "TimeXer_LA_PD_C3Norm": {
+        "anchor": true,
+        "control": "norm",
+        "path_decay": true
+      },
+      "TimeXer_LA_C3Raw": {
+        "anchor": true,
+        "control": "raw",
+        "path_decay": false
+      }
+    },
+    "external_path_keys": [
+      ".ex_embedding.",
+      ".cross_attention."
+    ],
+    "detail_patch_len": 3
+  },
+  "signature": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+  "variants": {
+    "TimeXer_PD": {
+      "label": "V1",
+      "anchor": false,
+      "control": null,
+      "path_decay": true
+    },
+    "TimeXer_LA": {
+      "label": "V2",
+      "anchor": true,
+      "control": null,
+      "path_decay": false
+    },
+    "TimeXer_LA_PD": {
+      "label": "V3",
+      "anchor": true,
+      "control": null,
+      "path_decay": true
+    },
+    "TimeXer_LA_PD_C3Raw": {
+      "label": "V4",
+      "anchor": true,
+      "control": "raw",
+      "path_decay": true
+    },
+    "TimeXer_LA_PD_C3Zero": {
+      "label": "V5",
+      "anchor": true,
+      "control": "zero",
+      "path_decay": true
+    },
+    "TimeXer_LA_PD_C3Norm": {
+      "label": "V6",
+      "anchor": true,
+      "control": "norm",
+      "path_decay": true
+    },
+    "TimeXer_LA_C3Raw": {
+      "label": "V7",
+      "anchor": true,
+      "control": "raw",
+      "path_decay": false
+    }
+  },
+  "baselines_reused_from_v1": [
+    "HPA",
+    "LSTM",
+    "MLP",
+    "Informer",
+    "TimeXer",
+    "iTransformer",
+    "TimeFilter"
+  ],
+  "criteria": [
+    {
+      "claim": "C1_输出参照有效",
+      "better": "TimeXer_LA",
+      "than": "TimeXer",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    },
+    {
+      "claim": "C3_外部通路免衰减有效_无LA",
+      "better": "TimeXer_PD",
+      "than": "TimeXer",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    },
+    {
+      "claim": "C3_外部通路免衰减有效_有LA",
+      "better": "TimeXer_LA_PD",
+      "than": "TimeXer_LA",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    },
+    {
+      "claim": "描述_有C3时PD的收益",
+      "better": "TimeXer_LA_PD_C3Raw",
+      "than": "TimeXer_LA_C3Raw",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": false
+    },
+    {
+      "claim": "C2_控制细节有效_对无标记",
+      "better": "TimeXer_LA_PD_C3Raw",
+      "than": "TimeXer_LA_PD",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    },
+    {
+      "claim": "C2_控制细节有效_对全零标记",
+      "better": "TimeXer_LA_PD_C3Raw",
+      "than": "TimeXer_LA_PD_C3Zero",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    },
+    {
+      "claim": "C2_保留幅值",
+      "better": "TimeXer_LA_PD_C3Raw",
+      "than": "TimeXer_LA_PD_C3Norm",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    },
+    {
+      "claim": "描述_无PD时C3Raw整体收益",
+      "better": "TimeXer_LA_C3Raw",
+      "than": "TimeXer_LA",
+      "min_wins": 4,
+      "mean_lower": true,
+      "fast_not_worse": true
+    }
+  ],
+  "main_rule": "V0始终合格；V1需C3a，V2需C1，V3需C1与C3b并优于V0，V4需V3合格与两项C2并优于V0；在合格集合中按五种子平均验证RMSE最小选择，1e-12 m内并列优先组件较少者再按编号；无合格改进退回V0。幅值及交互判据决定机制表述。本轮不启用门控。",
+  "interaction": {
+    "pd_without_c3": "TimeXer_LA_PD",
+    "pd_with_c3": "TimeXer_LA_PD_C3Raw",
+    "wd_without_c3": "TimeXer_LA",
+    "wd_with_c3": "TimeXer_LA_C3Raw",
+    "min_positive_seeds": 4
+  },
+  "bootstrap": {
+    "block_samples": 48,
+    "repeats": 2000,
+    "seed": 20261029,
+    "level": 0.95
+  },
+  "d8_rule": "本轮不启用D8/H1；后续须按v2.1最近3步本站流量/开度的完整样本四格重新诊断",
+  "budget": {
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "seeds": [
+      42,
+      123,
+      2024,
+      2025,
+      3407
+    ],
+    "rule": "种子42试全部学习率，按验证RMSE选定，再训练其余4个种子",
+    "jobs": 49
+  },
+  "unchanged": [
+    "Dataset与数据包",
+    "70/10/20划分",
+    "训练段标准化",
+    "MSE损失",
+    "Adam",
+    "weight_decay=1e-4（PD组除外）",
+    "batch",
+    "dropout",
+    "epochs",
+    "patience",
+    "梯度裁剪",
+    "TimeXer主干全部参数"
+  ],
+  "group_thresholds_m": [
+    0.0013062999999959857,
+    0.00444168000000218
+  ],
+  "group_threshold_source": "训练标签一步变化的50%/90%分位数，仅用于评分",
+  "test_evaluated": false,
+  "candidate_list_closed": true
+}

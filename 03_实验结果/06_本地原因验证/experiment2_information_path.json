@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "rows": [
+    {
+      "group": "upstream_physical",
+      "input_RMS_change": 0.4358372688293457,
+      "output_RMS_change_standardized": 0.0,
+      "activation_RMS_changes": {
+        "ex_embedding": 0.0262681245803833,
+        "layer0": 0.0,
+        "layer1": 0.0,
+        "head": 0.0
+      }
+    },
+    {
+      "group": "calendar",
+      "input_RMS_change": 0.20128880441188812,
+      "output_RMS_change_standardized": 0.0,
+      "activation_RMS_changes": {
+        "ex_embedding": 0.007318863645195961,
+        "layer0": 0.0,
+        "layer1": 0.0,
+        "head": 0.0
+      }
+    }
+  ],
+  "head_patch_weight_norm": 0.5853320360183716,
+  "head_global_weight_norm": 0.2403097152709961,
+  "note": "activation diagnostic only; no model/source/weights saved or modified"
+}

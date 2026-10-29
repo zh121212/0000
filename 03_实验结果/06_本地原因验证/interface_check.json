@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "parameters": 102017,
+  "unchanged_state_dict_structure": true,
+  "formula_verified": true,
+  "input_not_modified": true,
+  "zero_head_mean_vs_last_verified": true,
+  "finite_parameter_gradients": true
+}

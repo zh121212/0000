@@ -1,0 +1,23 @@
+{
+  "pid": 6596,
+  "started_at": "2026-10-29T22:32:51.4035839+08:00",
+  "python": "D:\\anaconda3\\envs\\rl_case1\\python.exe",
+  "arguments": [
+    "-B",
+    "-X",
+    "utf8",
+    "-u",
+    "\"E:\\小论文\\HPA\\TimeXer_TaskA_Cloud\\07_TimeXer改进主线\\run_improvement.py\"",
+    "--stage",
+    "main",
+    "--device",
+    "cuda",
+    "--parallel",
+    "2"
+  ],
+  "model": "TimeXer_LA_PD_C3Raw",
+  "formal_jobs": 7,
+  "device": "RTX 5060 Laptop GPU",
+  "original_baselines_retrained": false,
+  "new_test_evaluation": false
+}

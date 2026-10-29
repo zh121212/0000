@@ -1,0 +1,62 @@
+{
+  "status": "local_non_training_checks_passed",
+  "syntax": true,
+  "source_snapshots_verified": true,
+  "adapters_identical_to_v2": false,
+  "only_task_A": true,
+  "seeds": [
+    42,
+    123,
+    2024,
+    2025,
+    3407
+  ],
+  "cpu_forward_shapes": {
+    "HPA": [
+      2,
+      1
+    ],
+    "LSTM": [
+      2,
+      1
+    ],
+    "MLP": [
+      2,
+      1
+    ],
+    "Informer": [
+      2,
+      1
+    ],
+    "TimeXer": [
+      2,
+      1
+    ],
+    "iTransformer": [
+      2,
+      1
+    ],
+    "TimeFilter": [
+      2,
+      1
+    ]
+  },
+  "fitting_or_backpropagation_executed": true,
+  "fitting_executed": false,
+  "backpropagation_scope": "仅日历修复回归检查，无优化器更新、无正式训练",
+  "calendar_input_fix": {
+    "models": ["TimeXer", "iTransformer", "TimeFilter"],
+    "regression_tests": "tests/test_calendar_inputs.py",
+    "cpu_checks_passed": true,
+    "calendar_values_preserved": true,
+    "physical_normalization_preserved": true,
+    "target_scale_preserved": true,
+    "each_calendar_feature_affects_prediction": true,
+    "finite_parameter_gradients": true,
+    "reload_equal": true
+  },
+  "test_metrics_computed": false,
+  "unified_table_rows_verified_with_disposable_synthetic_values": 50,
+  "duplicate_seed_rejected": true,
+  "cloud_gpu_training_verified": false
+}

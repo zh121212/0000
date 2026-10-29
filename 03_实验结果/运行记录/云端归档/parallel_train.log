@@ -1,0 +1,38 @@
+PARALLEL TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.001, 'seed': 2025} pid=7358
+PARALLEL TRAIN {'task': 'A', 'model': 'HPA', 'lr': 0.001, 'seed': 3407} pid=7471
+PARALLEL TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.001, 'seed': 123} pid=7621
+PARALLEL TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.001, 'seed': 2024} pid=7713
+PARALLEL TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.001, 'seed': 2025} pid=7787
+PARALLEL TRAIN {'task': 'A', 'model': 'LSTM', 'lr': 0.001, 'seed': 3407} pid=7881
+PARALLEL TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.0001, 'seed': 123} pid=7955
+PARALLEL TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.0001, 'seed': 2024} pid=8055
+PARALLEL TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.0001, 'seed': 2025} pid=8127
+PARALLEL TRAIN {'task': 'A', 'model': 'MLP', 'lr': 0.0001, 'seed': 3407} pid=8229
+PARALLEL TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.0003, 'seed': 123} pid=8305
+PARALLEL TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.0003, 'seed': 2024} pid=8398
+PARALLEL TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.0003, 'seed': 2025} pid=8591
+PARALLEL TRAIN {'task': 'A', 'model': 'Informer', 'lr': 0.0003, 'seed': 3407} pid=8718
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.0001, 'seed': 123} pid=8899
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.0001, 'seed': 2024} pid=9014
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.0001, 'seed': 2025} pid=9151
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeXer', 'lr': 0.0001, 'seed': 3407} pid=9240
+PARALLEL TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.001, 'seed': 123} pid=9367
+PARALLEL TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.001, 'seed': 2024} pid=9447
+PARALLEL TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.001, 'seed': 2025} pid=9569
+PARALLEL TRAIN {'task': 'A', 'model': 'iTransformer', 'lr': 0.001, 'seed': 3407} pid=9641
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.0003, 'seed': 123} pid=9747
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.0003, 'seed': 2024} pid=9840
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.0003, 'seed': 2025} pid=10015
+PARALLEL TRAIN {'task': 'A', 'model': 'TimeFilter', 'lr': 0.0003, 'seed': 3407} pid=10087
+{
+  "status": "training_finished_handed_back_for_evaluation",
+  "updated_at": "2026-10-27T19:17:50+08:00",
+  "pid": 7294,
+  "original_queue_pid": 2848,
+  "original_queue_paused": false,
+  "max_parallel_jobs": 2,
+  "completed_jobs": 49,
+  "total_jobs": 49,
+  "active_jobs": [],
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

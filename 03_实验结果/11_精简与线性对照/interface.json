@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "model": "TimeXer_LastAnchor_Control3Raw",
+      "parameters": 102017,
+      "backbone_retained": true,
+      "input_unchanged": true,
+      "finite_gradients": true,
+      "linear_initially_identical_to_baseline": false
+    },
+    {
+      "model": "TimeXer_LastAnchor_Control3Zero",
+      "parameters": 102017,
+      "backbone_retained": true,
+      "input_unchanged": true,
+      "finite_gradients": true,
+      "linear_initially_identical_to_baseline": false
+    },
+    {
+      "model": "TimeXer_LastAnchor_LinearBypass",
+      "parameters": 102222,
+      "backbone_retained": true,
+      "input_unchanged": true,
+      "finite_gradients": true,
+      "linear_initially_identical_to_baseline": true
+    }
+  ],
+  "control_global_indices": [
+    13,
+    14,
+    15
+  ],
+  "new_source_tokens": 19,
+  "previous_raw13_source_tokens": 29,
+  "baseline_source_tokens": 16
+}

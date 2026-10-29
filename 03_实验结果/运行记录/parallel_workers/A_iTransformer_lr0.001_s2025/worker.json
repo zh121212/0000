@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-27T19:07:53+08:00",
+  "job": {
+    "task": "A",
+    "model": "iTransformer",
+    "lr": 0.001,
+    "seed": 2025
+  },
+  "epoch": 16,
+  "best_epoch": 6,
+  "best_val_RMSE": 0.0071908049726992175,
+  "elapsed_seconds": 88.71546778990887
+}

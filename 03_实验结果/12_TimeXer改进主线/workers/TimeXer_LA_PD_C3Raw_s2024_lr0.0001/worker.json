@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-29T22:49:28+08:00",
+  "job": {
+    "task": "A",
+    "model": "TimeXer_LA_PD_C3Raw",
+    "seed": 2024,
+    "lr": 0.0001
+  },
+  "epoch": 42,
+  "best_epoch": 40,
+  "best_val_RMSE": 0.00696882902467504,
+  "elapsed_seconds": 554.4369999999999
+}

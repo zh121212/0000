@@ -1,0 +1,7 @@
+plan.json 已存在且一致
+plan.json 已存在且一致
+TRAIN pid=24636 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 42, 'lr': 0.0001}
+TRAIN pid=31568 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 42, 'lr': 0.0003}
+TRAIN pid=16788 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 42, 'lr': 0.001}
+TRAIN pid=21144 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 123, 'lr': 0.0001}
+TRAIN pid=28980 {'task': 'A', 'model': 'TimeXer_LA_PD_C3Raw', 'seed': 2024, 'lr': 0.0001}

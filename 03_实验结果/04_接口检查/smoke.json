@@ -1,0 +1,240 @@
+{
+  "status": "passed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "updated_at": "2026-10-27T17:07:30+08:00",
+  "checks": [
+    {
+      "task": "A",
+      "model": "HPA",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "input_gradient",
+        "upstream_gradient_sum": 0.05314776673913002,
+        "local_gradient_sum": 10.50953483581543
+      },
+      "reload_equal": true,
+      "first_loss": 0.1384940892457962,
+      "last_loss": 0.027078960090875626,
+      "validation_subset_metrics": {
+        "MAE": 0.17362986369299005,
+        "MAPE": 0.12193061162314796,
+        "RMSE": 0.17390820509660193,
+        "skill_vs_persistence": -4738.59219585859,
+        "n": 64
+      }
+    },
+    {
+      "task": "A",
+      "model": "LSTM",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "input_gradient",
+        "upstream_gradient_sum": 1.1972413063049316,
+        "local_gradient_sum": 1.3831114768981934
+      },
+      "reload_equal": true,
+      "first_loss": 0.06366129964590073,
+      "last_loss": 0.03158240765333176,
+      "validation_subset_metrics": {
+        "MAE": 0.22453006807381293,
+        "MAPE": 0.1576751311602671,
+        "RMSE": 0.2247326333037096,
+        "skill_vs_persistence": -7913.675461941266,
+        "n": 64
+      }
+    },
+    {
+      "task": "A",
+      "model": "MLP",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "input_gradient",
+        "upstream_gradient_sum": 11.413005828857422,
+        "local_gradient_sum": 4.752074241638184
+      },
+      "reload_equal": true,
+      "first_loss": 0.003511193674057722,
+      "last_loss": 0.0075389547273516655,
+      "validation_subset_metrics": {
+        "MAE": 0.2449340443951864,
+        "MAPE": 0.17200377453004678,
+        "RMSE": 0.24512188084547593,
+        "skill_vs_persistence": -9414.968367997204,
+        "n": 64
+      }
+    },
+    {
+      "task": "A",
+      "model": "Informer",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "fixed_rng_perturbation",
+        "upstream_max_prediction_change": 0.016835033893585205,
+        "local_max_prediction_change": 0.1081617996096611
+      },
+      "reload_equal": true,
+      "first_loss": 0.25987911224365234,
+      "last_loss": 0.041277822107076645,
+      "validation_subset_metrics": {
+        "MAE": 0.17307294163617337,
+        "MAPE": 0.12153934164495106,
+        "RMSE": 0.17575669503212746,
+        "skill_vs_persistence": -4839.882986211226,
+        "n": 64
+      }
+    },
+    {
+      "task": "A",
+      "model": "TimeXer",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "fixed_rng_perturbation",
+        "upstream_max_prediction_change": 3.421306610107422e-05,
+        "local_max_prediction_change": 0.07439449429512024
+      },
+      "reload_equal": true,
+      "first_loss": 0.00017385694081895053,
+      "last_loss": 0.002933918032795191,
+      "validation_subset_metrics": {
+        "MAE": 0.005310267905886068,
+        "MAPE": 0.003728966173121503,
+        "RMSE": 0.007546440304353584,
+        "skill_vs_persistence": -7.92452503245948,
+        "n": 64
+      }
+    },
+    {
+      "task": "A",
+      "model": "iTransformer",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "fixed_rng_perturbation",
+        "upstream_max_prediction_change": 0.0015988051891326904,
+        "local_max_prediction_change": 0.24574154615402222
+      },
+      "reload_equal": true,
+      "first_loss": 0.00013631058391183615,
+      "last_loss": 0.0012620696797966957,
+      "validation_subset_metrics": {
+        "MAE": 0.002168042693637684,
+        "MAPE": 0.0015224803679256586,
+        "RMSE": 0.0030340031264369186,
+        "skill_vs_persistence": -0.4425566532253724,
+        "n": 64
+      }
+    },
+    {
+      "task": "A",
+      "model": "TimeFilter",
+      "device": "cuda",
+      "samples": 256,
+      "epochs": 2,
+      "input_shape": [
+        256,
+        12,
+        17
+      ],
+      "output_shape": [
+        256,
+        1
+      ],
+      "finite_gradient": true,
+      "both_histories_connected": true,
+      "dependence_check": {
+        "method": "fixed_rng_perturbation",
+        "upstream_max_prediction_change": 0.0002823770046234131,
+        "local_max_prediction_change": 0.01576724648475647
+      },
+      "reload_equal": true,
+      "first_loss": 0.15750619769096375,
+      "last_loss": 0.15380412340164185,
+      "validation_subset_metrics": {
+        "MAE": 0.005086971742565005,
+        "MAPE": 0.003572184645430457,
+        "RMSE": 0.0068476000188237894,
+        "skill_vs_persistence": -6.3481429946344266,
+        "n": 64
+      }
+    }
+  ],
+  "test_set_evaluated": false,
+  "note": "256条训练样本、2轮，只验证流程，不是正式对比结果"
+}

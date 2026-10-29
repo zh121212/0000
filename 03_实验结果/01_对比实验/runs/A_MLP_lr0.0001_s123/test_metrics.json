@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "MLP",
+  "lr": 0.0001,
+  "seed": 123,
+  "MAE": 0.005343145213496282,
+  "MAPE": 0.00375327851553594,
+  "RMSE": 0.008811833474768315,
+  "skill_vs_persistence": -4.3783943123101015,
+  "n": 3217,
+  "best_epoch": 61,
+  "training_seconds": 75.08457893389277,
+  "parameters": 17345,
+  "inference_seconds": 0.019321681931614876,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

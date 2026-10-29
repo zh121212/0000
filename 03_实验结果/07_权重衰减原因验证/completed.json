@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-29T15:32:35+08:00",
+  "signatures": {
+    "baseline": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "previous_script_sha256": "d9610e9e1bb632a3a2aaae86a256d3821138dcc1d684a7d4dc4e44257437a23e",
+    "current_script_sha256": "6052aa53c02bcd4059d86c7bf08aa923a5f1632c69e7abb4552a65b936f1cd92",
+    "override": {
+      "weight_decay": 0.0
+    }
+  },
+  "new_training_jobs": 14,
+  "reused_control_jobs": 14,
+  "evaluated_selected_checkpoints": 20,
+  "test_evaluated": false,
+  "original_files_unchanged": true,
+  "parameters": 102017,
+  "selected_learning_rates": {
+    "TimeXer/wd0.0001": 0.0001,
+    "TimeXer/wd0": 0.0003,
+    "TimeXer_LastAnchor/wd0.0001": 0.001,
+    "TimeXer_LastAnchor/wd0": 0.001
+  }
+}

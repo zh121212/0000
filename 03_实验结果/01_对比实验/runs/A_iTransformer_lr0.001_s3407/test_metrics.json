@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "iTransformer",
+  "lr": 0.001,
+  "seed": 3407,
+  "MAE": 0.0023285670184720613,
+  "MAPE": 0.0016356121155614214,
+  "RMSE": 0.0038731566793477105,
+  "skill_vs_persistence": -0.039082923902927114,
+  "n": 3217,
+  "best_epoch": 17,
+  "training_seconds": 137.7090994499158,
+  "parameters": 67969,
+  "inference_seconds": 0.14826839417219162,
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1"
+}

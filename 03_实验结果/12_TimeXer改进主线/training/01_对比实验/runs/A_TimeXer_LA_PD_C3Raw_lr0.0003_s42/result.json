@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer_LA_PD_C3Raw",
+  "seed": 42,
+  "lr": 0.0003,
+  "status": "completed",
+  "fingerprint": "72f47df691ab2d3cf24a6774f9791b6ae4021ec7d4630d980a6ac15404c0b020",
+  "best_val_RMSE": 0.00698823173159004,
+  "best_epoch": 14,
+  "epochs_run": 24,
+  "training_seconds": 301.7340000000004,
+  "parameters": 102017,
+  "device": "cuda",
+  "checkpoint_sha256": "8704aea0f2759796751401767423cbe77df0ffbfa5ef69a195099e6e3d681ec1",
+  "test_set_evaluated": false
+}

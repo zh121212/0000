@@ -1,0 +1,8 @@
+{
+  "task": "A",
+  "model": "TimeXer",
+  "seed": 2024,
+  "lr": 0.0003,
+  "fingerprint": "ebad40f9ccfd6989fd0f383b0940da00a0c7b55468bc6eb7649c87b9a3debfad",
+  "started_at": "2026-10-29T15:22:56+08:00"
+}

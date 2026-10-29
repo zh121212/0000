@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-29T18:09:46+08:00",
+  "signature_parts": {
+    "baseline": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "previous": "d9610e9e1bb632a3a2aaae86a256d3821138dcc1d684a7d4dc4e44257437a23e",
+    "prior": "6052aa53c02bcd4059d86c7bf08aa923a5f1632c69e7abb4552a65b936f1cd92",
+    "parent": "af0f5dfc7d8c5ab41ff479bc251bbd6a022e219344a6e673d195fe7be5764192",
+    "script": "77b4c37c1bd4fd4ccabc856fcd7d2631734dad9686eed280ee7d3833e9e7a42d",
+    "weight_decay": 0.0,
+    "modes": {
+      "TimeXer_LastAnchor_Control3Raw": "control3",
+      "TimeXer_LastAnchor_Control3Zero": "zero3",
+      "TimeXer_LastAnchor_LinearBypass": "linear"
+    },
+    "linear_features": "physical history minus its last observation; calendar unchanged; all12x17 values"
+  },
+  "jobs": 21,
+  "formal_seed_results": 15,
+  "test_evaluated": false,
+  "old_files_unchanged": true,
+  "selected_learning_rates": {
+    "TimeXer_LastAnchor_Control3Raw": 0.001,
+    "TimeXer_LastAnchor_Control3Zero": 0.001,
+    "TimeXer_LastAnchor_LinearBypass": 0.001
+  }
+}

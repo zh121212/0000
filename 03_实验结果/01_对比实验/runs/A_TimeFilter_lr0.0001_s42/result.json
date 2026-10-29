@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeFilter",
+  "lr": 0.0001,
+  "seed": 42,
+  "status": "completed",
+  "fingerprint": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+  "best_val_RMSE": 0.0074870406028313945,
+  "best_epoch": 16,
+  "epochs_run": 26,
+  "training_seconds": 241.0188468969427,
+  "parameters": 44401,
+  "device": "cuda",
+  "checkpoint_sha256": "fee9fbd5d79977af711b9390cfb0245399f3c6b9343ab90634a839c18ea3106f",
+  "test_set_evaluated": false
+}

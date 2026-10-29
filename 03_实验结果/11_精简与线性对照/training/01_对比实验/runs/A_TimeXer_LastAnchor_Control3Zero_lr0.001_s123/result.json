@@ -1,0 +1,16 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor_Control3Zero",
+  "seed": 123,
+  "lr": 0.001,
+  "status": "completed",
+  "fingerprint": "d3ba55b0c2316cb0484b4a31509035389bcd83bd125516b0a4715785c7d3997c",
+  "best_val_RMSE": 0.006939188390692742,
+  "best_epoch": 30,
+  "epochs_run": 40,
+  "training_seconds": 128.60900000005495,
+  "parameters": 102017,
+  "device": "cuda",
+  "checkpoint_sha256": "521fba3d82ac5fd84fdb0744078d681b1e1d5b212e45973d32833e5565485b24",
+  "test_set_evaluated": false
+}

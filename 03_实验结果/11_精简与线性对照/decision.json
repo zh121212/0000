@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "primary_rule": "minimum mean five-seed validation RMSE among eligible positive candidates and prior accepted controls",
+  "eligibility": {
+    "TimeXer_LastAnchor_Control3Raw": {
+      "criteria": {
+        "overall_RMSE_better_than_LastAnchor": true,
+        "overall_MAE_better_than_LastAnchor": true,
+        "stable_RMSE_better_than_LastAnchor": true,
+        "fast_RMSE_not_worse_than_LastAnchor": true,
+        "at_least4_of5_overall_RMSE_wins": true,
+        "beats_same_count_zero_control": true
+      },
+      "eligible": true,
+      "paired_wins_vs_LastAnchor": 5
+    },
+    "TimeXer_LastAnchor_LinearBypass": {
+      "criteria": {
+        "overall_RMSE_better_than_LastAnchor": true,
+        "overall_MAE_better_than_LastAnchor": true,
+        "stable_RMSE_better_than_LastAnchor": false,
+        "fast_RMSE_not_worse_than_LastAnchor": true,
+        "at_least4_of5_overall_RMSE_wins": true
+      },
+      "eligible": false,
+      "paired_wins_vs_LastAnchor": 5
+    }
+  },
+  "eligible_candidates": [
+    "TimeXer_LastAnchor",
+    "TimeXer_LastAnchor_RecentRaw",
+    "TimeXer_LastAnchor_Control3Raw"
+  ],
+  "winner": "TimeXer_LastAnchor_Control3Raw",
+  "winner_kind": "control3",
+  "selected_lr": 0.001,
+  "weight_decay": 0.0,
+  "parameters": 102017,
+  "validation_RMSE_m": 0.00687020229220324,
+  "validation_MAE_m": 0.00287015513543808,
+  "paired_wins_vs_Raw13": 4,
+  "winner_median_seconds_per1608": 0.10678865003865205,
+  "raw13_median_seconds_per1608": 0.10766295000212264,
+  "compaction_success": true,
+  "compact_RMSE_m": 0.00687020229220324,
+  "zero3_RMSE_m": 0.006958033253780881,
+  "linear_RMSE_m": 0.0067934947692509795,
+  "test_evaluated": false,
+  "architecture_fairness": "original TimeXer backbone present in every positive new condition; raw17x12 observations unchanged",
+  "novelty_note": "linear residuals are established techniques; effective engineering outcome does not prove strong methodological novelty"
+}

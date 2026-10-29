@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-10-29T22:49:34+08:00",
+  "finished": 0,
+  "total": 4,
+  "running": [
+    {
+      "task": "A",
+      "model": "TimeXer_LA_PD_C3Raw",
+      "seed": 123,
+      "lr": 0.0001
+    },
+    {
+      "task": "A",
+      "model": "TimeXer_LA_PD_C3Raw",
+      "seed": 2024,
+      "lr": 0.0001
+    }
+  ],
+  "failed": []
+}

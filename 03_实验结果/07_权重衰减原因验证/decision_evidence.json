@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-29",
+  "status": "verified",
+  "validation_persistence_RMSE_mm": 7.079767526400801,
+  "paired_effects": [
+    {
+      "model": "TimeXer",
+      "control_RMSE_mm": 7.6244253661612005,
+      "wd0_RMSE_mm": 7.18615654438918,
+      "RMSE_change_percent": -5.748221022887168,
+      "paired_RMSE_wins": 5,
+      "paired_MAE_wins": 5,
+      "RMSE_wins_vs_persistence": 0,
+      "control_MAE_mm": 3.22102505412594,
+      "wd0_MAE_mm": 3.03678656324878
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "control_RMSE_mm": 7.052686502014421,
+      "wd0_RMSE_mm": 6.959326673193241,
+      "RMSE_change_percent": -1.3237484580452263,
+      "paired_RMSE_wins": 5,
+      "paired_MAE_wins": 3,
+      "RMSE_wins_vs_persistence": 5,
+      "control_MAE_mm": 2.92849366387172,
+      "wd0_MAE_mm": 2.9139655365137602
+    }
+  ],
+  "parameter_groups": [
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "cross_query_key",
+      "trained_to_initial_norm": 1.0571304368
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "cross_value_output",
+      "trained_to_initial_norm": 1.0448611471
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "external_embedding",
+      "trained_to_initial_norm": 1.0264091953
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "prediction_head",
+      "trained_to_initial_norm": 0.8058890239
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "remaining_parameters",
+      "trained_to_initial_norm": 1.0036305639
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "self_attention",
+      "trained_to_initial_norm": 1.0221314582
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "target_embedding",
+      "trained_to_initial_norm": 1.0056206885
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "cross_query_key",
+      "trained_to_initial_norm": 0.0104275603
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "cross_value_output",
+      "trained_to_initial_norm": 0.01282193
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "external_embedding",
+      "trained_to_initial_norm": 0.1526563381
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "prediction_head",
+      "trained_to_initial_norm": 1.0740699994
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "remaining_parameters",
+      "trained_to_initial_norm": 0.6283128748
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "self_attention",
+      "trained_to_initial_norm": 0.036863725
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "target_embedding",
+      "trained_to_initial_norm": 0.7163502636
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "cross_query_key",
+      "trained_to_initial_norm": 1.2023216233
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "cross_value_output",
+      "trained_to_initial_norm": 1.2481514925
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "external_embedding",
+      "trained_to_initial_norm": 1.0404890286
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "prediction_head",
+      "trained_to_initial_norm": 0.6819079592
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "remaining_parameters",
+      "trained_to_initial_norm": 1.0084605572
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "self_attention",
+      "trained_to_initial_norm": 1.1506165858
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "target_embedding",
+      "trained_to_initial_norm": 1.0041799469
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "cross_query_key",
+      "trained_to_initial_norm": 1.412672169e-20
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "cross_value_output",
+      "trained_to_initial_norm": 0.0004970252
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "external_embedding",
+      "trained_to_initial_norm": 9.1975e-06
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "prediction_head",
+      "trained_to_initial_norm": 0.3867906475
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "remaining_parameters",
+      "trained_to_initial_norm": 0.1249048905
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "self_attention",
+      "trained_to_initial_norm": 0.0024544887
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "target_embedding",
+      "trained_to_initial_norm": 0.2825192665
+    }
+  ],
+  "permutation_means": [
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "calendar",
+      "delta_RMSE": 9.61e-08,
+      "prediction_shift_RMS_m": 0.0002445336
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "local_physical",
+      "delta_RMSE": 0.0759649191,
+      "prediction_shift_RMS_m": 0.08328385
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "group": "upstream_physical",
+      "delta_RMSE": -4.37061e-05,
+      "prediction_shift_RMS_m": 0.0011172648
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "calendar",
+      "delta_RMSE": 1e-10,
+      "prediction_shift_RMS_m": 4e-09
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "local_physical",
+      "delta_RMSE": 0.075594493,
+      "prediction_shift_RMS_m": 0.0833693513
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "group": "upstream_physical",
+      "delta_RMSE": 3e-10,
+      "prediction_shift_RMS_m": 2.07e-08
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "calendar",
+      "delta_RMSE": -8.511e-07,
+      "prediction_shift_RMS_m": 0.0002558823
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "local_physical",
+      "delta_RMSE": 0.0762475563,
+      "prediction_shift_RMS_m": 0.0833882658
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "group": "upstream_physical",
+      "delta_RMSE": 1.79757e-05,
+      "prediction_shift_RMS_m": 0.0008673048
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "calendar",
+      "delta_RMSE": 0.0,
+      "prediction_shift_RMS_m": 0.0
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "local_physical",
+      "delta_RMSE": 0.0761758969,
+      "prediction_shift_RMS_m": 0.0833823137
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "group": "upstream_physical",
+      "delta_RMSE": 0.0,
+      "prediction_shift_RMS_m": 0.0
+    }
+  ],
+  "initial_gradient_medians": [
+    {
+      "model": "TimeXer",
+      "group": "cross_query_key",
+      "data_gradient_norm": 6.91538e-05,
+      "decay_gradient_norm": 0.0009285438,
+      "decay_to_data_ratio": 13.5336195999
+    },
+    {
+      "model": "TimeXer",
+      "group": "cross_value_output",
+      "data_gradient_norm": 0.0004858319,
+      "decay_gradient_norm": 0.0009321467,
+      "decay_to_data_ratio": 1.9375206578
+    },
+    {
+      "model": "TimeXer",
+      "group": "external_embedding",
+      "data_gradient_norm": 0.0001095745,
+      "decay_gradient_norm": 0.0004872717,
+      "decay_to_data_ratio": 4.4201978185
+    },
+    {
+      "model": "TimeXer",
+      "group": "prediction_head",
+      "data_gradient_norm": 0.0167922196,
+      "decay_gradient_norm": 5.65064e-05,
+      "decay_to_data_ratio": 0.0033845266
+    },
+    {
+      "model": "TimeXer",
+      "group": "remaining_parameters",
+      "data_gradient_norm": 0.0037249361,
+      "decay_gradient_norm": 0.0024034996,
+      "decay_to_data_ratio": 0.6449851223
+    },
+    {
+      "model": "TimeXer",
+      "group": "self_attention",
+      "data_gradient_norm": 0.0027644771,
+      "decay_gradient_norm": 0.001318428,
+      "decay_to_data_ratio": 0.4745719877
+    },
+    {
+      "model": "TimeXer",
+      "group": "target_embedding",
+      "data_gradient_norm": 0.0014521404,
+      "decay_gradient_norm": 0.0009008455,
+      "decay_to_data_ratio": 0.6267685583
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "cross_query_key",
+      "data_gradient_norm": 3.34186e-05,
+      "decay_gradient_norm": 0.0009285438,
+      "decay_to_data_ratio": 27.9175599201
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "cross_value_output",
+      "data_gradient_norm": 0.0002381807,
+      "decay_gradient_norm": 0.0009321467,
+      "decay_to_data_ratio": 3.9149081925
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "external_embedding",
+      "data_gradient_norm": 4.72886e-05,
+      "decay_gradient_norm": 0.0004872717,
+      "decay_to_data_ratio": 10.3672393663
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "prediction_head",
+      "data_gradient_norm": 0.0074041206,
+      "decay_gradient_norm": 5.65064e-05,
+      "decay_to_data_ratio": 0.0077030378
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "remaining_parameters",
+      "data_gradient_norm": 0.0017275635,
+      "decay_gradient_norm": 0.0024034996,
+      "decay_to_data_ratio": 1.3932394987
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "self_attention",
+      "data_gradient_norm": 0.0014410983,
+      "decay_gradient_norm": 0.001318428,
+      "decay_to_data_ratio": 0.9149058634
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "group": "target_embedding",
+      "data_gradient_norm": 0.0004260249,
+      "decay_gradient_norm": 0.0009008455,
+      "decay_to_data_ratio": 2.0849905327
+    }
+  ],
+  "attention_means": [
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0,
+      "mean_abs_deviation_from_uniform": 0.0252873645,
+      "normalized_entropy": 0.9247353834
+    },
+    {
+      "model": "TimeXer",
+      "weight_decay": 0.0001,
+      "mean_abs_deviation_from_uniform": 5.503e-07,
+      "normalized_entropy": 1.0
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0,
+      "mean_abs_deviation_from_uniform": 0.0472517061,
+      "normalized_entropy": 0.7550801858
+    },
+    {
+      "model": "TimeXer_LastAnchor",
+      "weight_decay": 0.0001,
+      "mean_abs_deviation_from_uniform": 0.0,
+      "normalized_entropy": 1.0
+    }
+  ],
+  "test_evaluated": false,
+  "structural_changes_made": false
+}

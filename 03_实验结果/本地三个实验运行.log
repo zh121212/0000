@@ -1,0 +1,60 @@
+EXP1 HPA seed=42
+EXP1 HPA seed=123
+EXP1 HPA seed=2024
+EXP1 HPA seed=2025
+EXP1 HPA seed=3407
+EXP1 LSTM seed=42
+EXP1 LSTM seed=123
+EXP1 LSTM seed=2024
+EXP1 LSTM seed=2025
+EXP1 LSTM seed=3407
+EXP1 MLP seed=42
+EXP1 MLP seed=123
+EXP1 MLP seed=2024
+EXP1 MLP seed=2025
+EXP1 MLP seed=3407
+EXP1 Informer seed=42
+EXP1 Informer seed=123
+EXP1 Informer seed=2024
+EXP1 Informer seed=2025
+EXP1 Informer seed=3407
+EXP1 TimeXer seed=42
+EXP1 TimeXer seed=123
+EXP1 TimeXer seed=2024
+EXP1 TimeXer seed=2025
+EXP1 TimeXer seed=3407
+EXP1 iTransformer seed=42
+EXP1 iTransformer seed=123
+EXP1 iTransformer seed=2024
+EXP1 iTransformer seed=2025
+EXP1 iTransformer seed=3407
+EXP1 TimeFilter seed=42
+EXP1 TimeFilter seed=123
+EXP1 TimeFilter seed=2024
+EXP1 TimeFilter seed=2025
+EXP1 TimeFilter seed=3407
+EXP2 seed=42 group=upstream_physical
+EXP2 seed=42 group=local_physical
+EXP2 seed=42 group=calendar
+EXP2 seed=123 group=upstream_physical
+EXP2 seed=123 group=local_physical
+EXP2 seed=123 group=calendar
+EXP2 seed=2024 group=upstream_physical
+EXP2 seed=2024 group=local_physical
+EXP2 seed=2024 group=calendar
+EXP2 seed=2025 group=upstream_physical
+EXP2 seed=2025 group=local_physical
+EXP2 seed=2025 group=calendar
+EXP2 seed=3407 group=upstream_physical
+EXP2 seed=3407 group=local_physical
+EXP2 seed=3407 group=calendar
+EXP3 EVAL TimeXer seed=42
+EXP3 EVAL TimeXer seed=123
+EXP3 EVAL TimeXer seed=2024
+EXP3 EVAL TimeXer seed=2025
+EXP3 EVAL TimeXer seed=3407
+EXP3 EVAL TimeXer_LastAnchor seed=42
+EXP3 EVAL TimeXer_LastAnchor seed=123
+EXP3 EVAL TimeXer_LastAnchor seed=2024
+EXP3 EVAL TimeXer_LastAnchor seed=2025
+EXP3 EVAL TimeXer_LastAnchor seed=3407

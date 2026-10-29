@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-10-29T15:38:23+08:00",
+  "signature_parts": {
+    "baseline": "2d34defc0b28df2ab3d8fc51a02aa0812951d89a01cb0b1693ee6575e820e1a1",
+    "previous_script": "d9610e9e1bb632a3a2aaae86a256d3821138dcc1d684a7d4dc4e44257437a23e",
+    "comparison_script": "6052aa53c02bcd4059d86c7bf08aa923a5f1632c69e7abb4552a65b936f1cd92",
+    "script": "56ee4e17c025d4f071d428c7e46d4724a12d4c48aaecbcfe077483c32d23ec60",
+    "stage_one_receipt": "34758cb048ad1016bb4fdd2efcce58d4dfdf9f3bda5ebad42db9707a6ddd8543",
+    "exempt_groups": [
+      "cross_query_key",
+      "cross_value_output",
+      "external_embedding"
+    ],
+    "remaining_decay": 0.0001
+  },
+  "base_config": {
+    "protocol": "task_A_cloud_five_seeds_v1",
+    "confirmed_task": "在预测发出时刻只使用当时及以前的实测记录，预测30分钟后的目标闸前水位",
+    "source_subdir": "01_数据集/01_源文件快照",
+    "stations": {
+      "qihe": "淇河倒虹吸出口节制闸（镇平）.csv",
+      "shierlihe": "十二里河渡槽进口节制闸.csv"
+    },
+    "tasks": {
+      "A": [
+        "qihe",
+        "shierlihe"
+      ]
+    },
+    "models": [
+      "HPA",
+      "LSTM",
+      "MLP",
+      "Informer",
+      "TimeXer",
+      "iTransformer",
+      "TimeFilter"
+    ],
+    "ablations": [],
+    "seq_len": 12,
+    "pred_len": 1,
+    "frequency_minutes": 30,
+    "train_ratio": 0.7,
+    "validation_end_ratio": 0.8,
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "seeds": [
+      42,
+      123,
+      2024,
+      2025,
+      3407
+    ],
+    "epochs": 100,
+    "patience": 10,
+    "batch_size": 64,
+    "dropout": 0.1,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "timefilter_aux_weight": 0.05,
+    "device": "cuda",
+    "cpu_threads": 2,
+    "job_timeout_seconds": 3600,
+    "water_level_unit": "m",
+    "flow_unit": "m³/s",
+    "gate_opening_unit": "mm",
+    "notes": "当前只训练任务A；HPA仅为对照，不安排HPA消融。改进工作以TimeXer为基础，具体方案尚未制定。窗口12步是基准设置，不代表已证明最优。",
+    "physical_fields": [
+      "闸前水位",
+      "闸后水位",
+      "闸前闸后水位差",
+      "瞬时流量"
+    ],
+    "calendar_features": [
+      "time_of_day",
+      "weekday",
+      "week_of_month"
+    ],
+    "input_scope": "上游站和目标站均使用全部指定物理字段及每孔开度的12步历史；公共日历特征加入一次",
+    "research_backbone": "TimeXer",
+    "execution_state": "已获用户授权上传云服务器，执行完整训练、测试与预测对比作图"
+  },
+  "only_change": "external_embedding and all cross_attention parameters exempt from decay; remaining parameters keep 1e-4",
+  "hypothesis": "separate external-path shrinkage from effects of removing regularization on the full target backbone",
+  "budget": "3 learning rates at seed42 then four other seeds, seven jobs; same data/model/objective",
+  "test_evaluated": false,
+  "architecture_changed": false
+}

@@ -1,0 +1,10 @@
+﻿condition,group,fraction_of_validation_squared_error
+uniform_1e-4,stable,0.006737554798801305
+uniform_1e-4,moderate,0.05729778947204973
+uniform_1e-4,fast,0.9359646557291572
+uniform_zero,stable,0.013306331018668717
+uniform_zero,moderate,0.06538290376229151
+uniform_zero,fast,0.921310765219041
+external_exempt,stable,0.008812714302766223
+external_exempt,moderate,0.058401426400830646
+external_exempt,fast,0.9327858592964153

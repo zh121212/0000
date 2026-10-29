@@ -1,0 +1,8 @@
+{
+  "task": "A",
+  "model": "TimeXer_LastAnchor_PathDecay",
+  "seed": 123,
+  "lr": 0.0003,
+  "fingerprint": "af6eb895992465dbf3f1aee116ee4dcd9963fee1f5cc257e7d47bcf5bfd48f08",
+  "started_at": "2026-10-29T15:40:38+08:00"
+}
